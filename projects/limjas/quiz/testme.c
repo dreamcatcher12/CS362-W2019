@@ -5,22 +5,22 @@
 
 char inputChar()
 {
-    char charRandomize = (rand() % 95) + 32;//random ascii value between 32 and 125
+    int i = (rand() % 95) + 32;
+    char charRandomize = i;//random ascii value between 32 and 125
     return charRandomize;
 
 }
 
 char *inputrandomString()
 {
- 
-   char* randomStr = (char*) calloc(6,sizeof(char));
-   int i = 0;
-   for(i = 0; i < 5; i++)
-   {
-     randomStr[i] = (rand() % (25)) + 97;//random ascii value between 97 and 122
-   }
-   randomStr[5] = '\0';
-   return randomStr;
+    int i = 0;
+    char* randomStr = (char*) calloc(6,sizeof(char));
+    for(i = 0; i < 5; i++)
+    {
+        randomStr[i] = (rand() % (25)) + 97;//random ascii value between 97 and 122
+    }
+    randomStr[5] = '\0';
+    return randomStr;
 }
 
 void testme()
