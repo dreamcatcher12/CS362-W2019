@@ -13,13 +13,12 @@ char inputChar()
 
 char *inputString()
 {
-    static char randomstr[6]; /* Define a static char array where you will store the random string */
-    char tempstr[] = "reset"; /* Define a temporary string having all the collection of characters used */
+    static char randomstr[6]; //create a static array that can store values
+    char tempstr[] = "reset"; // need temp arr to collect chars used
     for (int i = 0; i < 6; i++)
     {
         randomstr[i] = '\0';
     }
-
     for (int j = 0; j < 6; j++)
     {
         randomstr[j] = tempstr[rand()%6];
