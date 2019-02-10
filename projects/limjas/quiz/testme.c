@@ -11,17 +11,24 @@ char inputChar()
 
 }
 
-char *inputrandomString()
+char *inputString()
 {
-    int i = 0;
-    char* randomStr = (char*) calloc(6,sizeof(char));
-    for(i = 0; i < 5; i++)
+    static char randomstr[6]; /* Define a static char array where you will store the random string */
+    char tempstr[] = "reset"; /* Define a temporary string having all the collection of characters used */
+    for (int i = 0; i < 6; i++)
     {
-        randomStr[i] = (rand() % (25)) + 97;//random ascii value between 97 and 122
+        randomstr[i] = '\0';
     }
-    randomStr[5] = '\0';
-    return randomStr;
+
+    for (int j = 0; j < 6; j++)
+    {
+        randomstr[j] = tempstr[rand()%6];
+    }
+    return randomstr;
+
 }
+
+
 
 void testme()
 {
@@ -33,7 +40,7 @@ void testme()
   {
     tcCount++;
     c = inputChar();
-    s = inputrandomString();
+    s = inputString();
     printf("Iteration %d: c = %c, s = %s, state = %d\n", tcCount, c, s, state);
 
     if (c == '[' && state == 0) state = 1;
