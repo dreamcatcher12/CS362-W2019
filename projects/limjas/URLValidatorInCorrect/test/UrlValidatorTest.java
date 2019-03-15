@@ -34,6 +34,106 @@ public class UrlValidatorTest extends TestCase {
       System.out.println(urlVal.isValid("ww.google.com"));
       System.out.println("gogle.c");
       System.out.println(urlVal.isValid("gogle.c"));
+	   
+	   
+    System.out.println("\nCorrect URL:");
+      System.out.println("ftp://www.google.com.");
+      System.out.println(urlVal.isValid("ftp://www.google.com."));
+
+
+      System.out.println("\nCorrect URL:");
+      System.out.println("http://255.255.255.255");
+      System.out.println(urlVal.isValid("http://255.255.255.255"));
+
+
+      System.out.println("\nIncorrect URL:");
+      System.out.println("http://255.255.255.255:65536");
+      System.out.println(urlVal.isValid("http://255.255.255.255:65536"));
+
+
+      System.out.println("\nIncorrect URL:");
+      System.out.println("http://255.255.255.255:999999999999999999");
+      System.out.println(urlVal.isValid("http://255.255.255.255:999999999999999999"));
+
+
+      System.out.println("\nCorrect URL:");
+      System.out.println("http://255.255.255.255/test1");
+      System.out.println(urlVal.isValid("http://255.255.255.255/test1"));
+
+      System.out.println("\nCorrect URL:");
+      System.out.println("http://255.255.255.255/t123");
+      System.out.println(urlVal.isValid("http://255.255.255.255/t123"));
+
+      System.out.println("\nInorrect URL:");
+      System.out.println("http://255.255.255.255/..//file");
+      System.out.println(urlVal.isValid("http://255.255.255.255/..//file"));
+      System.out.println("\nCorrect URL:");
+      System.out.println("http://255.255.255.255/t123?action=view");
+      System.out.println(urlVal.isValid("http://255.255.255.255/t123?action=view"));
+
+      System.out.println("\nCorrect URL:");
+      System.out.println("http://255.255.255.255/?action=edit&mode=up");
+      System.out.println(urlVal.isValid("http://255.255.255.255/?action=edit&mode=up"));
+
+      System.out.println("\nCorrect URL:");
+      System.out.println("http://255.255.255.255/");
+      System.out.println(urlVal.isValid("http://255.255.255.255/"));
+
+
+      System.out.println("\nCorrect URL:");
+      System.out.println("http://255.com");
+      System.out.println(urlVal.isValid("http://255.com"));
+
+      System.out.println("\nIncorrect URL:");
+      System.out.println("http/www.google.com");
+      System.out.println(urlVal.isValid("http/www.google.com"));
+
+      System.out.println("\nIncorrect URL:");
+      System.out.println("http:www.google.com");
+      System.out.println(urlVal.isValid("http:www.google.com"));
+
+      System.out.println("\nCorrect URL:");
+      System.out.println("h3t://go.cc:65535/test1/file");
+      System.out.println(urlVal.isValid("h3t://go.cc:65535/test1/file"));
+
+      System.out.println("\nCorrect URL:");
+      System.out.println("ftp://www.google.com.");
+      System.out.println(urlVal.isValid("ftp://www.google.com."));
+
+      System.out.println("\nCorrect URL:");
+      System.out.println("http://255.255.255.255:80");
+      System.out.println(urlVal.isValid("http://255.255.255.255:80"));
+
+      System.out.println("\nCorrect URL:");
+      System.out.println("http://255.255.255.255:65535");
+      System.out.println(urlVal.isValid("http://255.255.255.255:65535"));
+
+      System.out.println("\nCorrect URL:");
+      System.out.println("http://255.255.255.255:0");
+      System.out.println(urlVal.isValid("http://255.255.255.255:0"));
+
+
+      System.out.println("\nIncorrect URL:");
+      System.out.println("http://go.1aa");
+      System.out.println(urlVal.isValid("http://go.1aa"));
+
+
+      System.out.println("\nIncorrect URL:");
+      System.out.println("http://aaa");
+      System.out.println(urlVal.isValid("http://aaa"));
+
+      System.out.println("\nCorrect URL:");
+      System.out.println("ftp://www.google.com");
+      System.out.println(urlVal.isValid("ftp://www.google.com"));
+
+      System.out.println("\nCorrect URL:");
+      System.out.println("h3t://www.google.com");
+      System.out.println(urlVal.isValid("h3t://www.google.com"));
+
+      System.out.println("\nIncorrect URL:");
+      System.out.println("http://1.2.3.4.");
+      System.out.println(urlVal.isValid("http://1.2.3.4."));
+	   
    }
    /* Validates purely valid URLs. Set is simple in interest of time
     * 1st partition only focuses on valid URLs
@@ -192,103 +292,138 @@ public class UrlValidatorTest extends TestCase {
    * Post-condition: All test cases are valid
   */
    public void testYourThirdPartitionRandom() {
-	      StringBuilder urlBuilder = new StringBuilder();
-	      UrlValidator urlVal;
-	      String[] scheme = {"http://", // true
-	              "3ht://", // false
-	              "ftp://", // true
-	              "h3t://", // true
-	              "http/"}; // false
-//	      String[] authority1 = {"www.google.com"}; // false
-	      String[] authority = {"com.asdf.www", // false
-	              "asdf.com", // true
-	              "invalid.url.http", // false
-	              "255.255.255.255", // true
-	              "this.is.invalid", // false
-	              "www.apple.com", // true
-	              "happy.asdf.doesntwork", // false
-	              ".bbb"}; // false
-	      String[] port = {"", // true
-	              "b1234", // false
-	              ":0", // true
-	              "badport"}; // false
-	      String[] path = {"@$%%dontwork", // false
-	              "/happy3/", // true
-	              "/hi//", // false
-	              "/works5", // true
-	              "/$777", // true
-	               "/.."}; // false
-	      String[] query = {"%wrongquery", // false
-	              "?action=view", // true
-	              "&queryisfalse", // false
-	              ""}; // true
-	      // Creates method that validates all URL schemes
-	      urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
-	      System.out.println("\nTesting valid and invalid Urls by building URL through use of random number generator");
-	      for (int cases = 1; cases < 101; cases++) {
-	         System.out.println("\ntest case #" + cases);
-	         // generate random numbers https://stackoverflow.com/questions/363681/how-do-i-generate-random-integers-within-a-specific-range-in-java
-	         int randomScheme = ThreadLocalRandom.current().nextInt(0, 4 + 1);
-	         int randomAuthority = ThreadLocalRandom.current().nextInt(0, 7 + 1);
-	         int randomPort = ThreadLocalRandom.current().nextInt(0, 3 + 1);
-	         int randomPath = ThreadLocalRandom.current().nextInt(0, 5 + 1);
-	         int randomQuery = ThreadLocalRandom.current().nextInt(0,  3 + 1);
-	         // reset url string
-	         urlBuilder.setLength(0);
-	         // append random scheme, authority, port, path, then query
-	         urlBuilder.append(scheme[randomScheme]);
-	         urlBuilder.append(authority[randomAuthority]);
-	         urlBuilder.append(port[randomPort]);
-	         urlBuilder.append(path[randomPath]);
-	         urlBuilder.append(query[randomQuery]);
-	         // save the randomly built Url to finalUrl
-	         String finalUrl = urlBuilder.toString();
-	         System.out.println(finalUrl);
-	         if (randomScheme == 1 || randomScheme == 4) {
-	            System.out.println("scheme is: " + scheme[randomScheme]);
-	            System.out.println("scheme should be invalid");
-	         }
-	         else {
-	            System.out.println("scheme is: " + scheme[randomScheme]);
-	            System.out.println("scheme should be valid");
-	         }
-//	           System.out.println("authority is: " + authority1[0]);
-//	           System.out.println("authority should be valid");
-	         if (randomAuthority == 0 || randomAuthority == 2 || randomAuthority == 4 || randomAuthority == 6 || randomAuthority == 7) {
-	            System.out.println("authority is: " + authority[randomAuthority]);
-	            System.out.println("authority should be invalid");
-	         }
-	         else {
-	            System.out.println("authority is: " + authority[randomAuthority]);
-	            System.out.println("authority should be valid");
-	         }
-	         if (randomPort == 1 || randomPort == 3) {
-	            System.out.println("port is: " + port[randomPort]);
-	            System.out.println("port should be invalid");
-	         }
-	         else {
-	            System.out.println("port is: " + port[randomPort]);
-	            System.out.println("port should be valid");
-	         }
-	         if (randomPath == 0 || randomPath == 2 || randomPath == 5) {
-	            System.out.println("path is: " + path[randomPath]);
-	            System.out.println("path should be invalid");
-	         }
-	         else {
-	            System.out.println("path is: " + path[randomPath]);
-	            System.out.println("path should be valid");
-	         }
-	         if (randomQuery == 0 || randomQuery == 2) {
-	            System.out.println("query is: " + query[randomQuery]);
-	            System.out.println("query should be invalid");
-	         }
-	         else {
-	            System.out.println("query is: " + query[randomQuery]);
-	            System.out.println("query should be valid");
-	         }
-	         System.out.println(urlVal.isValid(finalUrl));
-	      }
-	   }
+	        StringBuilder urlBuilder = new StringBuilder();
+      UrlValidator urlVal;
+      String[] scheme = {"http://", // true
+              "3ht://", // false
+              "ftp://", // true
+              "h3t://", // true
+              "http/"}; // false
+
+
+      String[] authority = {"com.asdf.www", // false
+              "asdf.com", // true
+              "invalid.url.http", // false
+              "255.255.255.255", // true
+              "this.is.invalid", // false
+              "www.apple.com", // true
+              "happy.asdf.doesntwork", // false
+              ".bbb"}; // false
+
+      String[] port = {"", // true
+              "b1234", // false
+              ":0", // true
+              "badport"}; // false
+
+      String[] path = {"@$%%dontwork", // false
+              "/happy3/", // true
+              "/hi//", // false
+              "/works5", // true
+              "/$777", // true
+               "/.."}; // false
+
+      String[] query = {"%wrongquery", // false
+              "?action=view", // true
+              "&queryisfalse", // false
+              ""}; // true
+
+      // Creates method that validates all URL schemes
+      urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+
+      System.out.println("\nTesting valid and invalid Urls by building URL through use of random number generator");
+
+      for (int cases = 1; cases < 101; cases++) {
+
+         System.out.println("\ntest case #" + cases);
+
+         int valid = 1;
+         // generate random numbers https://stackoverflow.com/questions/363681/how-do-i-generate-random-integers-within-a-specific-range-in-java
+         int randomScheme = ThreadLocalRandom.current().nextInt(0, 4 + 1);
+         int randomAuthority = ThreadLocalRandom.current().nextInt(0, 7 + 1);
+         int randomPort = ThreadLocalRandom.current().nextInt(0, 3 + 1);
+         int randomPath = ThreadLocalRandom.current().nextInt(0, 5 + 1);
+         int randomQuery = ThreadLocalRandom.current().nextInt(0,  3 + 1);
+
+         // reset url string
+         urlBuilder.setLength(0);
+
+         // append random scheme, authority, port, path, then query
+         urlBuilder.append(scheme[randomScheme]);
+         urlBuilder.append(authority[randomAuthority]);
+         urlBuilder.append(port[randomPort]);
+         urlBuilder.append(path[randomPath]);
+         urlBuilder.append(query[randomQuery]);
+
+         // save the randomly built Url to finalUrl
+         String finalUrl = urlBuilder.toString();
+
+         System.out.println(finalUrl);
+
+         if (randomScheme == 1 || randomScheme == 4) {
+            System.out.println("scheme is: " + scheme[randomScheme]);
+            System.out.println("scheme should be invalid");
+            valid = 0;
+         }
+         else {
+            System.out.println("scheme is: " + scheme[randomScheme]);
+            System.out.println("scheme should be valid");
+         }
+
+         if (randomAuthority == 0 || randomAuthority == 2 || randomAuthority == 4 || randomAuthority == 6 || randomAuthority == 7) {
+            System.out.println("authority is: " + authority[randomAuthority]);
+            System.out.println("authority should be invalid");
+            valid = 0;
+         }
+         else {
+            System.out.println("authority is: " + authority[randomAuthority]);
+            System.out.println("authority should be valid");
+         }
+
+         if (randomPort == 1 || randomPort == 3) {
+            System.out.println("port is: " + port[randomPort]);
+            System.out.println("port should be invalid");
+            valid = 0;
+         }
+         else {
+            System.out.println("port is: " + port[randomPort]);
+            System.out.println("port should be valid");
+         }
+
+         if (randomPath == 0 || randomPath == 2 || randomPath == 5) {
+            System.out.println("path is: " + path[randomPath]);
+            System.out.println("path should be invalid");
+            valid = 0;
+         }
+         else {
+            System.out.println("path is: " + path[randomPath]);
+            System.out.println("path should be valid");
+         }
+
+         if (randomQuery == 0 || randomQuery == 2) {
+            System.out.println("query is: " + query[randomQuery]);
+            System.out.println("query should be invalid");
+            valid = 0;
+         }
+         else {
+            System.out.println("query is: " + query[randomQuery]);
+            System.out.println("query should be valid");
+         }
+
+
+         System.out.println("isValid returns that tue url is " + urlVal.isValid(finalUrl));
+
+         if (urlVal.isValid(finalUrl) == true && valid == 1) {
+            System.out.println("TEST PASSED");
+         }
+         else if (urlVal.isValid(finalUrl) == false && valid == 0) {
+            System.out.println("TEST PASSED");
+         }
+         else {
+            System.out.println("TEST FAILED");
+
+         }
+      }
+   }
     /* Validates URLs from a file supplied by azadi’s Github Repo
     * https://github.com/citizenlab/test-lists/blob/master/lists/ae.csv
     * Precondition: N/A
