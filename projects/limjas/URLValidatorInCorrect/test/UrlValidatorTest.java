@@ -279,7 +279,7 @@ public class UrlValidatorTest extends TestCase {
    * Post-condition: All test cases are valid
   */
    public void testYourThirdPartitionRandom() {
-	        StringBuilder urlBuilder = new StringBuilder();
+      StringBuilder urlBuilder = new StringBuilder();
       UrlValidator urlVal;
       String[] scheme = {"http://", // true
               "3ht://", // false
