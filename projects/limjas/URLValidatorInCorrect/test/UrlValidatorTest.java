@@ -34,11 +34,6 @@ public class UrlValidatorTest extends TestCase {
       System.out.println(urlVal.isValid("ww.google.com"));
       System.out.println("gogle.c");
       System.out.println(urlVal.isValid("gogle.c"));
-	   
-	   
-    System.out.println("\nCorrect URL:");
-      System.out.println("ftp://www.google.com.");
-      System.out.println(urlVal.isValid("ftp://www.google.com."));
 
 
       System.out.println("\nCorrect URL:");
@@ -121,10 +116,6 @@ public class UrlValidatorTest extends TestCase {
       System.out.println("\nIncorrect URL:");
       System.out.println("http://aaa");
       System.out.println(urlVal.isValid("http://aaa"));
-
-      System.out.println("\nCorrect URL:");
-      System.out.println("ftp://www.google.com");
-      System.out.println(urlVal.isValid("ftp://www.google.com"));
 
       System.out.println("\nCorrect URL:");
       System.out.println("h3t://www.google.com");
