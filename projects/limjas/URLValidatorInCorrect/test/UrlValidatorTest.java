@@ -397,7 +397,7 @@ public class UrlValidatorTest extends TestCase {
          }
 
 
-         System.out.println("isValid returns that tue url is " + urlVal.isValid(finalUrl));
+         System.out.println("isValid returns that the url is " + urlVal.isValid(finalUrl));
 
          if (urlVal.isValid(finalUrl) == true && valid == 1) {
             System.out.println("TEST PASSED");
