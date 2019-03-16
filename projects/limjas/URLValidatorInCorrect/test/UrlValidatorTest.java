@@ -92,10 +92,6 @@ public class UrlValidatorTest extends TestCase {
       System.out.println(urlVal.isValid("h3t://go.cc:65535/test1/file"));
 
       System.out.println("\nCorrect URL:");
-      System.out.println("ftp://www.google.com.");
-      System.out.println(urlVal.isValid("ftp://www.google.com."));
-
-      System.out.println("\nCorrect URL:");
       System.out.println("http://255.255.255.255:80");
       System.out.println(urlVal.isValid("http://255.255.255.255:80"));
 
