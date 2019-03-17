@@ -1,0 +1,49 @@
+        -:    0:Source:cardtest4.c
+        -:    0:Graph:cardtest4.gcno
+        -:    0:Data:cardtest4.gcda
+        -:    0:Runs:2
+        -:    0:Programs:1
+        -:    1:/*
+        -:    2: * Jason Lim
+        -:    3: * CS 362
+        -:    4: * 2/10/19
+        -:    5: */
+        -:    6:
+        -:    7:#include "dominion.h"
+        -:    8:#include "dominion_helpers.h"
+        -:    9:#include <string.h>
+        -:   10:#include <stdio.h>
+        -:   11:#include <assert.h>
+        -:   12:#include "rngs.h"
+        -:   13:#include <stdlib.h>
+        -:   14:
+        -:   15://council test, testing num buys
+        2:   16:int main()
+        -:   17:{
+        -:   18:    struct gameState game;
+        2:   19:    int kingdom[10] = {adventurer, feast, council_room, village, remodel, mine, cutpurse, baron, tribute, smithy};
+        2:   20:    int myCard = council_room;
+        2:   21:    int myChoice1 = -1;
+        2:   22:    int myChoice2 = -1;
+        2:   23:    int myChoice3 = -1;
+        2:   24:    int myHandPos = -1;
+        2:   25:    int* myBonus = 0;
+        2:   26:    initializeGame(2, kingdom, 500, &game);
+        2:   27:    printf("Card Test 4: Council\n");
+        2:   28:    game.numBuys = 1; //set numBuys to 1 for testing
+        2:   29:    int i = game.numBuys;
+        2:   30:    cardEffect(myCard, myChoice1, myChoice2, myChoice3, &game, myHandPos, myBonus);
+        2:   31:    int j = i+1;
+        2:   32:    if(j == game.numBuys)
+        -:   33:    {
+    #####:   34:        printf("Council passed all test successfully\n");
+        -:   35:    }
+        -:   36:    else
+        -:   37:    {
+        2:   38:        printf("\nTest Failed\n");
+        -:   39:    }
+        -:   40:
+        2:   41:    printf("Finished Card Test 4: Council\n");
+        -:   42:
+        2:   43:    return 0;
+        -:   44:}
