@@ -1,0 +1,3924 @@
+
+Correct URL:
+http://google.com
+true
+
+Incorrect URL:
+ww.google.com
+true
+gogle.c
+true
+
+2nd partition: Testing only invalid URLs
+fakecom.google.wwwxyz@1!@$!fakequery
+fakecom.google.wwwxyz@1!@$&thisisnotaquery
+fakecom.google.wwwxyz@1!@$()()()
+fakecom.google.wwwxyz%#$#$#$!fakequery
+fakecom.google.wwwxyz%#$#$#$&thisisnotaquery
+fakecom.google.wwwxyz%#$#$#$()()()
+fakecom.google.wwwxyzwrongURLpath.http!fakequery
+fakecom.google.wwwxyzwrongURLpath.http&thisisnotaquery
+fakecom.google.wwwxyzwrongURLpath.http()()()
+fakecom.google.wwwxyz~~~12!fakequery
+fakecom.google.wwwxyz~~~12&thisisnotaquery
+fakecom.google.wwwxyz~~~12()()()
+fakecom.google.wwwxyzabcdWrong1232!fakequery
+fakecom.google.wwwxyzabcdWrong1232&thisisnotaquery
+fakecom.google.wwwxyzabcdWrong1232()()()
+fakecom.google.wwwz123@1!@$!fakequery
+fakecom.google.wwwz123@1!@$&thisisnotaquery
+fakecom.google.wwwz123@1!@$()()()
+fakecom.google.wwwz123%#$#$#$!fakequery
+fakecom.google.wwwz123%#$#$#$&thisisnotaquery
+fakecom.google.wwwz123%#$#$#$()()()
+fakecom.google.wwwz123wrongURLpath.http!fakequery
+fakecom.google.wwwz123wrongURLpath.http&thisisnotaquery
+fakecom.google.wwwz123wrongURLpath.http()()()
+fakecom.google.wwwz123~~~12!fakequery
+fakecom.google.wwwz123~~~12&thisisnotaquery
+fakecom.google.wwwz123~~~12()()()
+fakecom.google.wwwz123abcdWrong1232!fakequery
+fakecom.google.wwwz123abcdWrong1232&thisisnotaquery
+fakecom.google.wwwz123abcdWrong1232()()()
+fakecom.google.wwwabcd@1!@$!fakequery
+fakecom.google.wwwabcd@1!@$&thisisnotaquery
+fakecom.google.wwwabcd@1!@$()()()
+fakecom.google.wwwabcd%#$#$#$!fakequery
+fakecom.google.wwwabcd%#$#$#$&thisisnotaquery
+fakecom.google.wwwabcd%#$#$#$()()()
+fakecom.google.wwwabcdwrongURLpath.http!fakequery
+fakecom.google.wwwabcdwrongURLpath.http&thisisnotaquery
+fakecom.google.wwwabcdwrongURLpath.http()()()
+fakecom.google.wwwabcd~~~12!fakequery
+fakecom.google.wwwabcd~~~12&thisisnotaquery
+fakecom.google.wwwabcd~~~12()()()
+fakecom.google.wwwabcdabcdWrong1232!fakequery
+fakecom.google.wwwabcdabcdWrong1232&thisisnotaquery
+fakecom.google.wwwabcdabcdWrong1232()()()
+fakecom.google.wwwwrongurl@1!@$!fakequery
+fakecom.google.wwwwrongurl@1!@$&thisisnotaquery
+fakecom.google.wwwwrongurl@1!@$()()()
+fakecom.google.wwwwrongurl%#$#$#$!fakequery
+fakecom.google.wwwwrongurl%#$#$#$&thisisnotaquery
+fakecom.google.wwwwrongurl%#$#$#$()()()
+fakecom.google.wwwwrongurlwrongURLpath.http!fakequery
+fakecom.google.wwwwrongurlwrongURLpath.http&thisisnotaquery
+fakecom.google.wwwwrongurlwrongURLpath.http()()()
+fakecom.google.wwwwrongurl~~~12!fakequery
+fakecom.google.wwwwrongurl~~~12&thisisnotaquery
+fakecom.google.wwwwrongurl~~~12()()()
+fakecom.google.wwwwrongurlabcdWrong1232!fakequery
+fakecom.google.wwwwrongurlabcdWrong1232&thisisnotaquery
+fakecom.google.wwwwrongurlabcdWrong1232()()()
+fakeinvalid.url.httpxyz@1!@$!fakequery
+fakeinvalid.url.httpxyz@1!@$&thisisnotaquery
+fakeinvalid.url.httpxyz@1!@$()()()
+fakeinvalid.url.httpxyz%#$#$#$!fakequery
+fakeinvalid.url.httpxyz%#$#$#$&thisisnotaquery
+fakeinvalid.url.httpxyz%#$#$#$()()()
+fakeinvalid.url.httpxyzwrongURLpath.http!fakequery
+fakeinvalid.url.httpxyzwrongURLpath.http&thisisnotaquery
+fakeinvalid.url.httpxyzwrongURLpath.http()()()
+fakeinvalid.url.httpxyz~~~12!fakequery
+fakeinvalid.url.httpxyz~~~12&thisisnotaquery
+fakeinvalid.url.httpxyz~~~12()()()
+fakeinvalid.url.httpxyzabcdWrong1232!fakequery
+fakeinvalid.url.httpxyzabcdWrong1232&thisisnotaquery
+fakeinvalid.url.httpxyzabcdWrong1232()()()
+fakeinvalid.url.httpz123@1!@$!fakequery
+fakeinvalid.url.httpz123@1!@$&thisisnotaquery
+fakeinvalid.url.httpz123@1!@$()()()
+fakeinvalid.url.httpz123%#$#$#$!fakequery
+fakeinvalid.url.httpz123%#$#$#$&thisisnotaquery
+fakeinvalid.url.httpz123%#$#$#$()()()
+fakeinvalid.url.httpz123wrongURLpath.http!fakequery
+fakeinvalid.url.httpz123wrongURLpath.http&thisisnotaquery
+fakeinvalid.url.httpz123wrongURLpath.http()()()
+fakeinvalid.url.httpz123~~~12!fakequery
+fakeinvalid.url.httpz123~~~12&thisisnotaquery
+fakeinvalid.url.httpz123~~~12()()()
+fakeinvalid.url.httpz123abcdWrong1232!fakequery
+fakeinvalid.url.httpz123abcdWrong1232&thisisnotaquery
+fakeinvalid.url.httpz123abcdWrong1232()()()
+fakeinvalid.url.httpabcd@1!@$!fakequery
+fakeinvalid.url.httpabcd@1!@$&thisisnotaquery
+fakeinvalid.url.httpabcd@1!@$()()()
+fakeinvalid.url.httpabcd%#$#$#$!fakequery
+fakeinvalid.url.httpabcd%#$#$#$&thisisnotaquery
+fakeinvalid.url.httpabcd%#$#$#$()()()
+fakeinvalid.url.httpabcdwrongURLpath.http!fakequery
+fakeinvalid.url.httpabcdwrongURLpath.http&thisisnotaquery
+fakeinvalid.url.httpabcdwrongURLpath.http()()()
+fakeinvalid.url.httpabcd~~~12!fakequery
+fakeinvalid.url.httpabcd~~~12&thisisnotaquery
+fakeinvalid.url.httpabcd~~~12()()()
+fakeinvalid.url.httpabcdabcdWrong1232!fakequery
+fakeinvalid.url.httpabcdabcdWrong1232&thisisnotaquery
+fakeinvalid.url.httpabcdabcdWrong1232()()()
+fakeinvalid.url.httpwrongurl@1!@$!fakequery
+fakeinvalid.url.httpwrongurl@1!@$&thisisnotaquery
+fakeinvalid.url.httpwrongurl@1!@$()()()
+fakeinvalid.url.httpwrongurl%#$#$#$!fakequery
+fakeinvalid.url.httpwrongurl%#$#$#$&thisisnotaquery
+fakeinvalid.url.httpwrongurl%#$#$#$()()()
+fakeinvalid.url.httpwrongurlwrongURLpath.http!fakequery
+fakeinvalid.url.httpwrongurlwrongURLpath.http&thisisnotaquery
+fakeinvalid.url.httpwrongurlwrongURLpath.http()()()
+fakeinvalid.url.httpwrongurl~~~12!fakequery
+fakeinvalid.url.httpwrongurl~~~12&thisisnotaquery
+fakeinvalid.url.httpwrongurl~~~12()()()
+fakeinvalid.url.httpwrongurlabcdWrong1232!fakequery
+fakeinvalid.url.httpwrongurlabcdWrong1232&thisisnotaquery
+fakeinvalid.url.httpwrongurlabcdWrong1232()()()
+fakeplastic.trees.are.fakexyz@1!@$!fakequery
+fakeplastic.trees.are.fakexyz@1!@$&thisisnotaquery
+fakeplastic.trees.are.fakexyz@1!@$()()()
+fakeplastic.trees.are.fakexyz%#$#$#$!fakequery
+fakeplastic.trees.are.fakexyz%#$#$#$&thisisnotaquery
+fakeplastic.trees.are.fakexyz%#$#$#$()()()
+fakeplastic.trees.are.fakexyzwrongURLpath.http!fakequery
+fakeplastic.trees.are.fakexyzwrongURLpath.http&thisisnotaquery
+fakeplastic.trees.are.fakexyzwrongURLpath.http()()()
+fakeplastic.trees.are.fakexyz~~~12!fakequery
+fakeplastic.trees.are.fakexyz~~~12&thisisnotaquery
+fakeplastic.trees.are.fakexyz~~~12()()()
+fakeplastic.trees.are.fakexyzabcdWrong1232!fakequery
+fakeplastic.trees.are.fakexyzabcdWrong1232&thisisnotaquery
+fakeplastic.trees.are.fakexyzabcdWrong1232()()()
+fakeplastic.trees.are.fakez123@1!@$!fakequery
+fakeplastic.trees.are.fakez123@1!@$&thisisnotaquery
+fakeplastic.trees.are.fakez123@1!@$()()()
+fakeplastic.trees.are.fakez123%#$#$#$!fakequery
+fakeplastic.trees.are.fakez123%#$#$#$&thisisnotaquery
+fakeplastic.trees.are.fakez123%#$#$#$()()()
+fakeplastic.trees.are.fakez123wrongURLpath.http!fakequery
+fakeplastic.trees.are.fakez123wrongURLpath.http&thisisnotaquery
+fakeplastic.trees.are.fakez123wrongURLpath.http()()()
+fakeplastic.trees.are.fakez123~~~12!fakequery
+fakeplastic.trees.are.fakez123~~~12&thisisnotaquery
+fakeplastic.trees.are.fakez123~~~12()()()
+fakeplastic.trees.are.fakez123abcdWrong1232!fakequery
+fakeplastic.trees.are.fakez123abcdWrong1232&thisisnotaquery
+fakeplastic.trees.are.fakez123abcdWrong1232()()()
+fakeplastic.trees.are.fakeabcd@1!@$!fakequery
+fakeplastic.trees.are.fakeabcd@1!@$&thisisnotaquery
+fakeplastic.trees.are.fakeabcd@1!@$()()()
+fakeplastic.trees.are.fakeabcd%#$#$#$!fakequery
+fakeplastic.trees.are.fakeabcd%#$#$#$&thisisnotaquery
+fakeplastic.trees.are.fakeabcd%#$#$#$()()()
+fakeplastic.trees.are.fakeabcdwrongURLpath.http!fakequery
+fakeplastic.trees.are.fakeabcdwrongURLpath.http&thisisnotaquery
+fakeplastic.trees.are.fakeabcdwrongURLpath.http()()()
+fakeplastic.trees.are.fakeabcd~~~12!fakequery
+fakeplastic.trees.are.fakeabcd~~~12&thisisnotaquery
+fakeplastic.trees.are.fakeabcd~~~12()()()
+fakeplastic.trees.are.fakeabcdabcdWrong1232!fakequery
+fakeplastic.trees.are.fakeabcdabcdWrong1232&thisisnotaquery
+fakeplastic.trees.are.fakeabcdabcdWrong1232()()()
+fakeplastic.trees.are.fakewrongurl@1!@$!fakequery
+fakeplastic.trees.are.fakewrongurl@1!@$&thisisnotaquery
+fakeplastic.trees.are.fakewrongurl@1!@$()()()
+fakeplastic.trees.are.fakewrongurl%#$#$#$!fakequery
+fakeplastic.trees.are.fakewrongurl%#$#$#$&thisisnotaquery
+fakeplastic.trees.are.fakewrongurl%#$#$#$()()()
+fakeplastic.trees.are.fakewrongurlwrongURLpath.http!fakequery
+fakeplastic.trees.are.fakewrongurlwrongURLpath.http&thisisnotaquery
+fakeplastic.trees.are.fakewrongurlwrongURLpath.http()()()
+fakeplastic.trees.are.fakewrongurl~~~12!fakequery
+fakeplastic.trees.are.fakewrongurl~~~12&thisisnotaquery
+fakeplastic.trees.are.fakewrongurl~~~12()()()
+fakeplastic.trees.are.fakewrongurlabcdWrong1232!fakequery
+fakeplastic.trees.are.fakewrongurlabcdWrong1232&thisisnotaquery
+fakeplastic.trees.are.fakewrongurlabcdWrong1232()()()
+fakecanadian.geese.urlfakexyz@1!@$!fakequery
+fakecanadian.geese.urlfakexyz@1!@$&thisisnotaquery
+fakecanadian.geese.urlfakexyz@1!@$()()()
+fakecanadian.geese.urlfakexyz%#$#$#$!fakequery
+fakecanadian.geese.urlfakexyz%#$#$#$&thisisnotaquery
+fakecanadian.geese.urlfakexyz%#$#$#$()()()
+fakecanadian.geese.urlfakexyzwrongURLpath.http!fakequery
+fakecanadian.geese.urlfakexyzwrongURLpath.http&thisisnotaquery
+fakecanadian.geese.urlfakexyzwrongURLpath.http()()()
+fakecanadian.geese.urlfakexyz~~~12!fakequery
+fakecanadian.geese.urlfakexyz~~~12&thisisnotaquery
+fakecanadian.geese.urlfakexyz~~~12()()()
+fakecanadian.geese.urlfakexyzabcdWrong1232!fakequery
+fakecanadian.geese.urlfakexyzabcdWrong1232&thisisnotaquery
+fakecanadian.geese.urlfakexyzabcdWrong1232()()()
+fakecanadian.geese.urlfakez123@1!@$!fakequery
+fakecanadian.geese.urlfakez123@1!@$&thisisnotaquery
+fakecanadian.geese.urlfakez123@1!@$()()()
+fakecanadian.geese.urlfakez123%#$#$#$!fakequery
+fakecanadian.geese.urlfakez123%#$#$#$&thisisnotaquery
+fakecanadian.geese.urlfakez123%#$#$#$()()()
+fakecanadian.geese.urlfakez123wrongURLpath.http!fakequery
+fakecanadian.geese.urlfakez123wrongURLpath.http&thisisnotaquery
+fakecanadian.geese.urlfakez123wrongURLpath.http()()()
+fakecanadian.geese.urlfakez123~~~12!fakequery
+fakecanadian.geese.urlfakez123~~~12&thisisnotaquery
+fakecanadian.geese.urlfakez123~~~12()()()
+fakecanadian.geese.urlfakez123abcdWrong1232!fakequery
+fakecanadian.geese.urlfakez123abcdWrong1232&thisisnotaquery
+fakecanadian.geese.urlfakez123abcdWrong1232()()()
+fakecanadian.geese.urlfakeabcd@1!@$!fakequery
+fakecanadian.geese.urlfakeabcd@1!@$&thisisnotaquery
+fakecanadian.geese.urlfakeabcd@1!@$()()()
+fakecanadian.geese.urlfakeabcd%#$#$#$!fakequery
+fakecanadian.geese.urlfakeabcd%#$#$#$&thisisnotaquery
+fakecanadian.geese.urlfakeabcd%#$#$#$()()()
+fakecanadian.geese.urlfakeabcdwrongURLpath.http!fakequery
+fakecanadian.geese.urlfakeabcdwrongURLpath.http&thisisnotaquery
+fakecanadian.geese.urlfakeabcdwrongURLpath.http()()()
+fakecanadian.geese.urlfakeabcd~~~12!fakequery
+fakecanadian.geese.urlfakeabcd~~~12&thisisnotaquery
+fakecanadian.geese.urlfakeabcd~~~12()()()
+fakecanadian.geese.urlfakeabcdabcdWrong1232!fakequery
+fakecanadian.geese.urlfakeabcdabcdWrong1232&thisisnotaquery
+fakecanadian.geese.urlfakeabcdabcdWrong1232()()()
+fakecanadian.geese.urlfakewrongurl@1!@$!fakequery
+fakecanadian.geese.urlfakewrongurl@1!@$&thisisnotaquery
+fakecanadian.geese.urlfakewrongurl@1!@$()()()
+fakecanadian.geese.urlfakewrongurl%#$#$#$!fakequery
+fakecanadian.geese.urlfakewrongurl%#$#$#$&thisisnotaquery
+fakecanadian.geese.urlfakewrongurl%#$#$#$()()()
+fakecanadian.geese.urlfakewrongurlwrongURLpath.http!fakequery
+fakecanadian.geese.urlfakewrongurlwrongURLpath.http&thisisnotaquery
+fakecanadian.geese.urlfakewrongurlwrongURLpath.http()()()
+fakecanadian.geese.urlfakewrongurl~~~12!fakequery
+fakecanadian.geese.urlfakewrongurl~~~12&thisisnotaquery
+fakecanadian.geese.urlfakewrongurl~~~12()()()
+fakecanadian.geese.urlfakewrongurlabcdWrong1232!fakequery
+fakecanadian.geese.urlfakewrongurlabcdWrong1232&thisisnotaquery
+fakecanadian.geese.urlfakewrongurlabcdWrong1232()()()
+fake9255.fake.ccxyz@1!@$!fakequery
+fake9255.fake.ccxyz@1!@$&thisisnotaquery
+fake9255.fake.ccxyz@1!@$()()()
+fake9255.fake.ccxyz%#$#$#$!fakequery
+fake9255.fake.ccxyz%#$#$#$&thisisnotaquery
+fake9255.fake.ccxyz%#$#$#$()()()
+fake9255.fake.ccxyzwrongURLpath.http!fakequery
+fake9255.fake.ccxyzwrongURLpath.http&thisisnotaquery
+fake9255.fake.ccxyzwrongURLpath.http()()()
+fake9255.fake.ccxyz~~~12!fakequery
+fake9255.fake.ccxyz~~~12&thisisnotaquery
+fake9255.fake.ccxyz~~~12()()()
+fake9255.fake.ccxyzabcdWrong1232!fakequery
+fake9255.fake.ccxyzabcdWrong1232&thisisnotaquery
+fake9255.fake.ccxyzabcdWrong1232()()()
+fake9255.fake.ccz123@1!@$!fakequery
+fake9255.fake.ccz123@1!@$&thisisnotaquery
+fake9255.fake.ccz123@1!@$()()()
+fake9255.fake.ccz123%#$#$#$!fakequery
+fake9255.fake.ccz123%#$#$#$&thisisnotaquery
+fake9255.fake.ccz123%#$#$#$()()()
+fake9255.fake.ccz123wrongURLpath.http!fakequery
+fake9255.fake.ccz123wrongURLpath.http&thisisnotaquery
+fake9255.fake.ccz123wrongURLpath.http()()()
+fake9255.fake.ccz123~~~12!fakequery
+fake9255.fake.ccz123~~~12&thisisnotaquery
+fake9255.fake.ccz123~~~12()()()
+fake9255.fake.ccz123abcdWrong1232!fakequery
+fake9255.fake.ccz123abcdWrong1232&thisisnotaquery
+fake9255.fake.ccz123abcdWrong1232()()()
+fake9255.fake.ccabcd@1!@$!fakequery
+fake9255.fake.ccabcd@1!@$&thisisnotaquery
+fake9255.fake.ccabcd@1!@$()()()
+fake9255.fake.ccabcd%#$#$#$!fakequery
+fake9255.fake.ccabcd%#$#$#$&thisisnotaquery
+fake9255.fake.ccabcd%#$#$#$()()()
+fake9255.fake.ccabcdwrongURLpath.http!fakequery
+fake9255.fake.ccabcdwrongURLpath.http&thisisnotaquery
+fake9255.fake.ccabcdwrongURLpath.http()()()
+fake9255.fake.ccabcd~~~12!fakequery
+fake9255.fake.ccabcd~~~12&thisisnotaquery
+fake9255.fake.ccabcd~~~12()()()
+fake9255.fake.ccabcdabcdWrong1232!fakequery
+fake9255.fake.ccabcdabcdWrong1232&thisisnotaquery
+fake9255.fake.ccabcdabcdWrong1232()()()
+fake9255.fake.ccwrongurl@1!@$!fakequery
+fake9255.fake.ccwrongurl@1!@$&thisisnotaquery
+fake9255.fake.ccwrongurl@1!@$()()()
+fake9255.fake.ccwrongurl%#$#$#$!fakequery
+fake9255.fake.ccwrongurl%#$#$#$&thisisnotaquery
+fake9255.fake.ccwrongurl%#$#$#$()()()
+fake9255.fake.ccwrongurlwrongURLpath.http!fakequery
+fake9255.fake.ccwrongurlwrongURLpath.http&thisisnotaquery
+fake9255.fake.ccwrongurlwrongURLpath.http()()()
+fake9255.fake.ccwrongurl~~~12!fakequery
+fake9255.fake.ccwrongurl~~~12&thisisnotaquery
+fake9255.fake.ccwrongurl~~~12()()()
+fake9255.fake.ccwrongurlabcdWrong1232!fakequery
+fake9255.fake.ccwrongurlabcdWrong1232&thisisnotaquery
+fake9255.fake.ccwrongurlabcdWrong1232()()()
+schemewrongurlcom.google.wwwxyz@1!@$!fakequery
+schemewrongurlcom.google.wwwxyz@1!@$&thisisnotaquery
+schemewrongurlcom.google.wwwxyz@1!@$()()()
+schemewrongurlcom.google.wwwxyz%#$#$#$!fakequery
+schemewrongurlcom.google.wwwxyz%#$#$#$&thisisnotaquery
+schemewrongurlcom.google.wwwxyz%#$#$#$()()()
+schemewrongurlcom.google.wwwxyzwrongURLpath.http!fakequery
+schemewrongurlcom.google.wwwxyzwrongURLpath.http&thisisnotaquery
+schemewrongurlcom.google.wwwxyzwrongURLpath.http()()()
+schemewrongurlcom.google.wwwxyz~~~12!fakequery
+schemewrongurlcom.google.wwwxyz~~~12&thisisnotaquery
+schemewrongurlcom.google.wwwxyz~~~12()()()
+schemewrongurlcom.google.wwwxyzabcdWrong1232!fakequery
+schemewrongurlcom.google.wwwxyzabcdWrong1232&thisisnotaquery
+schemewrongurlcom.google.wwwxyzabcdWrong1232()()()
+schemewrongurlcom.google.wwwz123@1!@$!fakequery
+schemewrongurlcom.google.wwwz123@1!@$&thisisnotaquery
+schemewrongurlcom.google.wwwz123@1!@$()()()
+schemewrongurlcom.google.wwwz123%#$#$#$!fakequery
+schemewrongurlcom.google.wwwz123%#$#$#$&thisisnotaquery
+schemewrongurlcom.google.wwwz123%#$#$#$()()()
+schemewrongurlcom.google.wwwz123wrongURLpath.http!fakequery
+schemewrongurlcom.google.wwwz123wrongURLpath.http&thisisnotaquery
+schemewrongurlcom.google.wwwz123wrongURLpath.http()()()
+schemewrongurlcom.google.wwwz123~~~12!fakequery
+schemewrongurlcom.google.wwwz123~~~12&thisisnotaquery
+schemewrongurlcom.google.wwwz123~~~12()()()
+schemewrongurlcom.google.wwwz123abcdWrong1232!fakequery
+schemewrongurlcom.google.wwwz123abcdWrong1232&thisisnotaquery
+schemewrongurlcom.google.wwwz123abcdWrong1232()()()
+schemewrongurlcom.google.wwwabcd@1!@$!fakequery
+schemewrongurlcom.google.wwwabcd@1!@$&thisisnotaquery
+schemewrongurlcom.google.wwwabcd@1!@$()()()
+schemewrongurlcom.google.wwwabcd%#$#$#$!fakequery
+schemewrongurlcom.google.wwwabcd%#$#$#$&thisisnotaquery
+schemewrongurlcom.google.wwwabcd%#$#$#$()()()
+schemewrongurlcom.google.wwwabcdwrongURLpath.http!fakequery
+schemewrongurlcom.google.wwwabcdwrongURLpath.http&thisisnotaquery
+schemewrongurlcom.google.wwwabcdwrongURLpath.http()()()
+schemewrongurlcom.google.wwwabcd~~~12!fakequery
+schemewrongurlcom.google.wwwabcd~~~12&thisisnotaquery
+schemewrongurlcom.google.wwwabcd~~~12()()()
+schemewrongurlcom.google.wwwabcdabcdWrong1232!fakequery
+schemewrongurlcom.google.wwwabcdabcdWrong1232&thisisnotaquery
+schemewrongurlcom.google.wwwabcdabcdWrong1232()()()
+schemewrongurlcom.google.wwwwrongurl@1!@$!fakequery
+schemewrongurlcom.google.wwwwrongurl@1!@$&thisisnotaquery
+schemewrongurlcom.google.wwwwrongurl@1!@$()()()
+schemewrongurlcom.google.wwwwrongurl%#$#$#$!fakequery
+schemewrongurlcom.google.wwwwrongurl%#$#$#$&thisisnotaquery
+schemewrongurlcom.google.wwwwrongurl%#$#$#$()()()
+schemewrongurlcom.google.wwwwrongurlwrongURLpath.http!fakequery
+schemewrongurlcom.google.wwwwrongurlwrongURLpath.http&thisisnotaquery
+schemewrongurlcom.google.wwwwrongurlwrongURLpath.http()()()
+schemewrongurlcom.google.wwwwrongurl~~~12!fakequery
+schemewrongurlcom.google.wwwwrongurl~~~12&thisisnotaquery
+schemewrongurlcom.google.wwwwrongurl~~~12()()()
+schemewrongurlcom.google.wwwwrongurlabcdWrong1232!fakequery
+schemewrongurlcom.google.wwwwrongurlabcdWrong1232&thisisnotaquery
+schemewrongurlcom.google.wwwwrongurlabcdWrong1232()()()
+schemewrongurlinvalid.url.httpxyz@1!@$!fakequery
+schemewrongurlinvalid.url.httpxyz@1!@$&thisisnotaquery
+schemewrongurlinvalid.url.httpxyz@1!@$()()()
+schemewrongurlinvalid.url.httpxyz%#$#$#$!fakequery
+schemewrongurlinvalid.url.httpxyz%#$#$#$&thisisnotaquery
+schemewrongurlinvalid.url.httpxyz%#$#$#$()()()
+schemewrongurlinvalid.url.httpxyzwrongURLpath.http!fakequery
+schemewrongurlinvalid.url.httpxyzwrongURLpath.http&thisisnotaquery
+schemewrongurlinvalid.url.httpxyzwrongURLpath.http()()()
+schemewrongurlinvalid.url.httpxyz~~~12!fakequery
+schemewrongurlinvalid.url.httpxyz~~~12&thisisnotaquery
+schemewrongurlinvalid.url.httpxyz~~~12()()()
+schemewrongurlinvalid.url.httpxyzabcdWrong1232!fakequery
+schemewrongurlinvalid.url.httpxyzabcdWrong1232&thisisnotaquery
+schemewrongurlinvalid.url.httpxyzabcdWrong1232()()()
+schemewrongurlinvalid.url.httpz123@1!@$!fakequery
+schemewrongurlinvalid.url.httpz123@1!@$&thisisnotaquery
+schemewrongurlinvalid.url.httpz123@1!@$()()()
+schemewrongurlinvalid.url.httpz123%#$#$#$!fakequery
+schemewrongurlinvalid.url.httpz123%#$#$#$&thisisnotaquery
+schemewrongurlinvalid.url.httpz123%#$#$#$()()()
+schemewrongurlinvalid.url.httpz123wrongURLpath.http!fakequery
+schemewrongurlinvalid.url.httpz123wrongURLpath.http&thisisnotaquery
+schemewrongurlinvalid.url.httpz123wrongURLpath.http()()()
+schemewrongurlinvalid.url.httpz123~~~12!fakequery
+schemewrongurlinvalid.url.httpz123~~~12&thisisnotaquery
+schemewrongurlinvalid.url.httpz123~~~12()()()
+schemewrongurlinvalid.url.httpz123abcdWrong1232!fakequery
+schemewrongurlinvalid.url.httpz123abcdWrong1232&thisisnotaquery
+schemewrongurlinvalid.url.httpz123abcdWrong1232()()()
+schemewrongurlinvalid.url.httpabcd@1!@$!fakequery
+schemewrongurlinvalid.url.httpabcd@1!@$&thisisnotaquery
+schemewrongurlinvalid.url.httpabcd@1!@$()()()
+schemewrongurlinvalid.url.httpabcd%#$#$#$!fakequery
+schemewrongurlinvalid.url.httpabcd%#$#$#$&thisisnotaquery
+schemewrongurlinvalid.url.httpabcd%#$#$#$()()()
+schemewrongurlinvalid.url.httpabcdwrongURLpath.http!fakequery
+schemewrongurlinvalid.url.httpabcdwrongURLpath.http&thisisnotaquery
+schemewrongurlinvalid.url.httpabcdwrongURLpath.http()()()
+schemewrongurlinvalid.url.httpabcd~~~12!fakequery
+schemewrongurlinvalid.url.httpabcd~~~12&thisisnotaquery
+schemewrongurlinvalid.url.httpabcd~~~12()()()
+schemewrongurlinvalid.url.httpabcdabcdWrong1232!fakequery
+schemewrongurlinvalid.url.httpabcdabcdWrong1232&thisisnotaquery
+schemewrongurlinvalid.url.httpabcdabcdWrong1232()()()
+schemewrongurlinvalid.url.httpwrongurl@1!@$!fakequery
+schemewrongurlinvalid.url.httpwrongurl@1!@$&thisisnotaquery
+schemewrongurlinvalid.url.httpwrongurl@1!@$()()()
+schemewrongurlinvalid.url.httpwrongurl%#$#$#$!fakequery
+schemewrongurlinvalid.url.httpwrongurl%#$#$#$&thisisnotaquery
+schemewrongurlinvalid.url.httpwrongurl%#$#$#$()()()
+schemewrongurlinvalid.url.httpwrongurlwrongURLpath.http!fakequery
+schemewrongurlinvalid.url.httpwrongurlwrongURLpath.http&thisisnotaquery
+schemewrongurlinvalid.url.httpwrongurlwrongURLpath.http()()()
+schemewrongurlinvalid.url.httpwrongurl~~~12!fakequery
+schemewrongurlinvalid.url.httpwrongurl~~~12&thisisnotaquery
+schemewrongurlinvalid.url.httpwrongurl~~~12()()()
+schemewrongurlinvalid.url.httpwrongurlabcdWrong1232!fakequery
+schemewrongurlinvalid.url.httpwrongurlabcdWrong1232&thisisnotaquery
+schemewrongurlinvalid.url.httpwrongurlabcdWrong1232()()()
+schemewrongurlplastic.trees.are.fakexyz@1!@$!fakequery
+schemewrongurlplastic.trees.are.fakexyz@1!@$&thisisnotaquery
+schemewrongurlplastic.trees.are.fakexyz@1!@$()()()
+schemewrongurlplastic.trees.are.fakexyz%#$#$#$!fakequery
+schemewrongurlplastic.trees.are.fakexyz%#$#$#$&thisisnotaquery
+schemewrongurlplastic.trees.are.fakexyz%#$#$#$()()()
+schemewrongurlplastic.trees.are.fakexyzwrongURLpath.http!fakequery
+schemewrongurlplastic.trees.are.fakexyzwrongURLpath.http&thisisnotaquery
+schemewrongurlplastic.trees.are.fakexyzwrongURLpath.http()()()
+schemewrongurlplastic.trees.are.fakexyz~~~12!fakequery
+schemewrongurlplastic.trees.are.fakexyz~~~12&thisisnotaquery
+schemewrongurlplastic.trees.are.fakexyz~~~12()()()
+schemewrongurlplastic.trees.are.fakexyzabcdWrong1232!fakequery
+schemewrongurlplastic.trees.are.fakexyzabcdWrong1232&thisisnotaquery
+schemewrongurlplastic.trees.are.fakexyzabcdWrong1232()()()
+schemewrongurlplastic.trees.are.fakez123@1!@$!fakequery
+schemewrongurlplastic.trees.are.fakez123@1!@$&thisisnotaquery
+schemewrongurlplastic.trees.are.fakez123@1!@$()()()
+schemewrongurlplastic.trees.are.fakez123%#$#$#$!fakequery
+schemewrongurlplastic.trees.are.fakez123%#$#$#$&thisisnotaquery
+schemewrongurlplastic.trees.are.fakez123%#$#$#$()()()
+schemewrongurlplastic.trees.are.fakez123wrongURLpath.http!fakequery
+schemewrongurlplastic.trees.are.fakez123wrongURLpath.http&thisisnotaquery
+schemewrongurlplastic.trees.are.fakez123wrongURLpath.http()()()
+schemewrongurlplastic.trees.are.fakez123~~~12!fakequery
+schemewrongurlplastic.trees.are.fakez123~~~12&thisisnotaquery
+schemewrongurlplastic.trees.are.fakez123~~~12()()()
+schemewrongurlplastic.trees.are.fakez123abcdWrong1232!fakequery
+schemewrongurlplastic.trees.are.fakez123abcdWrong1232&thisisnotaquery
+schemewrongurlplastic.trees.are.fakez123abcdWrong1232()()()
+schemewrongurlplastic.trees.are.fakeabcd@1!@$!fakequery
+schemewrongurlplastic.trees.are.fakeabcd@1!@$&thisisnotaquery
+schemewrongurlplastic.trees.are.fakeabcd@1!@$()()()
+schemewrongurlplastic.trees.are.fakeabcd%#$#$#$!fakequery
+schemewrongurlplastic.trees.are.fakeabcd%#$#$#$&thisisnotaquery
+schemewrongurlplastic.trees.are.fakeabcd%#$#$#$()()()
+schemewrongurlplastic.trees.are.fakeabcdwrongURLpath.http!fakequery
+schemewrongurlplastic.trees.are.fakeabcdwrongURLpath.http&thisisnotaquery
+schemewrongurlplastic.trees.are.fakeabcdwrongURLpath.http()()()
+schemewrongurlplastic.trees.are.fakeabcd~~~12!fakequery
+schemewrongurlplastic.trees.are.fakeabcd~~~12&thisisnotaquery
+schemewrongurlplastic.trees.are.fakeabcd~~~12()()()
+schemewrongurlplastic.trees.are.fakeabcdabcdWrong1232!fakequery
+schemewrongurlplastic.trees.are.fakeabcdabcdWrong1232&thisisnotaquery
+schemewrongurlplastic.trees.are.fakeabcdabcdWrong1232()()()
+schemewrongurlplastic.trees.are.fakewrongurl@1!@$!fakequery
+schemewrongurlplastic.trees.are.fakewrongurl@1!@$&thisisnotaquery
+schemewrongurlplastic.trees.are.fakewrongurl@1!@$()()()
+schemewrongurlplastic.trees.are.fakewrongurl%#$#$#$!fakequery
+schemewrongurlplastic.trees.are.fakewrongurl%#$#$#$&thisisnotaquery
+schemewrongurlplastic.trees.are.fakewrongurl%#$#$#$()()()
+schemewrongurlplastic.trees.are.fakewrongurlwrongURLpath.http!fakequery
+schemewrongurlplastic.trees.are.fakewrongurlwrongURLpath.http&thisisnotaquery
+schemewrongurlplastic.trees.are.fakewrongurlwrongURLpath.http()()()
+schemewrongurlplastic.trees.are.fakewrongurl~~~12!fakequery
+schemewrongurlplastic.trees.are.fakewrongurl~~~12&thisisnotaquery
+schemewrongurlplastic.trees.are.fakewrongurl~~~12()()()
+schemewrongurlplastic.trees.are.fakewrongurlabcdWrong1232!fakequery
+schemewrongurlplastic.trees.are.fakewrongurlabcdWrong1232&thisisnotaquery
+schemewrongurlplastic.trees.are.fakewrongurlabcdWrong1232()()()
+schemewrongurlcanadian.geese.urlfakexyz@1!@$!fakequery
+schemewrongurlcanadian.geese.urlfakexyz@1!@$&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakexyz@1!@$()()()
+schemewrongurlcanadian.geese.urlfakexyz%#$#$#$!fakequery
+schemewrongurlcanadian.geese.urlfakexyz%#$#$#$&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakexyz%#$#$#$()()()
+schemewrongurlcanadian.geese.urlfakexyzwrongURLpath.http!fakequery
+schemewrongurlcanadian.geese.urlfakexyzwrongURLpath.http&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakexyzwrongURLpath.http()()()
+schemewrongurlcanadian.geese.urlfakexyz~~~12!fakequery
+schemewrongurlcanadian.geese.urlfakexyz~~~12&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakexyz~~~12()()()
+schemewrongurlcanadian.geese.urlfakexyzabcdWrong1232!fakequery
+schemewrongurlcanadian.geese.urlfakexyzabcdWrong1232&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakexyzabcdWrong1232()()()
+schemewrongurlcanadian.geese.urlfakez123@1!@$!fakequery
+schemewrongurlcanadian.geese.urlfakez123@1!@$&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakez123@1!@$()()()
+schemewrongurlcanadian.geese.urlfakez123%#$#$#$!fakequery
+schemewrongurlcanadian.geese.urlfakez123%#$#$#$&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakez123%#$#$#$()()()
+schemewrongurlcanadian.geese.urlfakez123wrongURLpath.http!fakequery
+schemewrongurlcanadian.geese.urlfakez123wrongURLpath.http&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakez123wrongURLpath.http()()()
+schemewrongurlcanadian.geese.urlfakez123~~~12!fakequery
+schemewrongurlcanadian.geese.urlfakez123~~~12&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakez123~~~12()()()
+schemewrongurlcanadian.geese.urlfakez123abcdWrong1232!fakequery
+schemewrongurlcanadian.geese.urlfakez123abcdWrong1232&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakez123abcdWrong1232()()()
+schemewrongurlcanadian.geese.urlfakeabcd@1!@$!fakequery
+schemewrongurlcanadian.geese.urlfakeabcd@1!@$&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakeabcd@1!@$()()()
+schemewrongurlcanadian.geese.urlfakeabcd%#$#$#$!fakequery
+schemewrongurlcanadian.geese.urlfakeabcd%#$#$#$&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakeabcd%#$#$#$()()()
+schemewrongurlcanadian.geese.urlfakeabcdwrongURLpath.http!fakequery
+schemewrongurlcanadian.geese.urlfakeabcdwrongURLpath.http&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakeabcdwrongURLpath.http()()()
+schemewrongurlcanadian.geese.urlfakeabcd~~~12!fakequery
+schemewrongurlcanadian.geese.urlfakeabcd~~~12&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakeabcd~~~12()()()
+schemewrongurlcanadian.geese.urlfakeabcdabcdWrong1232!fakequery
+schemewrongurlcanadian.geese.urlfakeabcdabcdWrong1232&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakeabcdabcdWrong1232()()()
+schemewrongurlcanadian.geese.urlfakewrongurl@1!@$!fakequery
+schemewrongurlcanadian.geese.urlfakewrongurl@1!@$&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakewrongurl@1!@$()()()
+schemewrongurlcanadian.geese.urlfakewrongurl%#$#$#$!fakequery
+schemewrongurlcanadian.geese.urlfakewrongurl%#$#$#$&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakewrongurl%#$#$#$()()()
+schemewrongurlcanadian.geese.urlfakewrongurlwrongURLpath.http!fakequery
+schemewrongurlcanadian.geese.urlfakewrongurlwrongURLpath.http&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakewrongurlwrongURLpath.http()()()
+schemewrongurlcanadian.geese.urlfakewrongurl~~~12!fakequery
+schemewrongurlcanadian.geese.urlfakewrongurl~~~12&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakewrongurl~~~12()()()
+schemewrongurlcanadian.geese.urlfakewrongurlabcdWrong1232!fakequery
+schemewrongurlcanadian.geese.urlfakewrongurlabcdWrong1232&thisisnotaquery
+schemewrongurlcanadian.geese.urlfakewrongurlabcdWrong1232()()()
+schemewrongurl9255.fake.ccxyz@1!@$!fakequery
+schemewrongurl9255.fake.ccxyz@1!@$&thisisnotaquery
+schemewrongurl9255.fake.ccxyz@1!@$()()()
+schemewrongurl9255.fake.ccxyz%#$#$#$!fakequery
+schemewrongurl9255.fake.ccxyz%#$#$#$&thisisnotaquery
+schemewrongurl9255.fake.ccxyz%#$#$#$()()()
+schemewrongurl9255.fake.ccxyzwrongURLpath.http!fakequery
+schemewrongurl9255.fake.ccxyzwrongURLpath.http&thisisnotaquery
+schemewrongurl9255.fake.ccxyzwrongURLpath.http()()()
+schemewrongurl9255.fake.ccxyz~~~12!fakequery
+schemewrongurl9255.fake.ccxyz~~~12&thisisnotaquery
+schemewrongurl9255.fake.ccxyz~~~12()()()
+schemewrongurl9255.fake.ccxyzabcdWrong1232!fakequery
+schemewrongurl9255.fake.ccxyzabcdWrong1232&thisisnotaquery
+schemewrongurl9255.fake.ccxyzabcdWrong1232()()()
+schemewrongurl9255.fake.ccz123@1!@$!fakequery
+schemewrongurl9255.fake.ccz123@1!@$&thisisnotaquery
+schemewrongurl9255.fake.ccz123@1!@$()()()
+schemewrongurl9255.fake.ccz123%#$#$#$!fakequery
+schemewrongurl9255.fake.ccz123%#$#$#$&thisisnotaquery
+schemewrongurl9255.fake.ccz123%#$#$#$()()()
+schemewrongurl9255.fake.ccz123wrongURLpath.http!fakequery
+schemewrongurl9255.fake.ccz123wrongURLpath.http&thisisnotaquery
+schemewrongurl9255.fake.ccz123wrongURLpath.http()()()
+schemewrongurl9255.fake.ccz123~~~12!fakequery
+schemewrongurl9255.fake.ccz123~~~12&thisisnotaquery
+schemewrongurl9255.fake.ccz123~~~12()()()
+schemewrongurl9255.fake.ccz123abcdWrong1232!fakequery
+schemewrongurl9255.fake.ccz123abcdWrong1232&thisisnotaquery
+schemewrongurl9255.fake.ccz123abcdWrong1232()()()
+schemewrongurl9255.fake.ccabcd@1!@$!fakequery
+schemewrongurl9255.fake.ccabcd@1!@$&thisisnotaquery
+schemewrongurl9255.fake.ccabcd@1!@$()()()
+schemewrongurl9255.fake.ccabcd%#$#$#$!fakequery
+schemewrongurl9255.fake.ccabcd%#$#$#$&thisisnotaquery
+schemewrongurl9255.fake.ccabcd%#$#$#$()()()
+schemewrongurl9255.fake.ccabcdwrongURLpath.http!fakequery
+schemewrongurl9255.fake.ccabcdwrongURLpath.http&thisisnotaquery
+schemewrongurl9255.fake.ccabcdwrongURLpath.http()()()
+schemewrongurl9255.fake.ccabcd~~~12!fakequery
+schemewrongurl9255.fake.ccabcd~~~12&thisisnotaquery
+schemewrongurl9255.fake.ccabcd~~~12()()()
+schemewrongurl9255.fake.ccabcdabcdWrong1232!fakequery
+schemewrongurl9255.fake.ccabcdabcdWrong1232&thisisnotaquery
+schemewrongurl9255.fake.ccabcdabcdWrong1232()()()
+schemewrongurl9255.fake.ccwrongurl@1!@$!fakequery
+schemewrongurl9255.fake.ccwrongurl@1!@$&thisisnotaquery
+schemewrongurl9255.fake.ccwrongurl@1!@$()()()
+schemewrongurl9255.fake.ccwrongurl%#$#$#$!fakequery
+schemewrongurl9255.fake.ccwrongurl%#$#$#$&thisisnotaquery
+schemewrongurl9255.fake.ccwrongurl%#$#$#$()()()
+schemewrongurl9255.fake.ccwrongurlwrongURLpath.http!fakequery
+schemewrongurl9255.fake.ccwrongurlwrongURLpath.http&thisisnotaquery
+schemewrongurl9255.fake.ccwrongurlwrongURLpath.http()()()
+schemewrongurl9255.fake.ccwrongurl~~~12!fakequery
+schemewrongurl9255.fake.ccwrongurl~~~12&thisisnotaquery
+schemewrongurl9255.fake.ccwrongurl~~~12()()()
+schemewrongurl9255.fake.ccwrongurlabcdWrong1232!fakequery
+schemewrongurl9255.fake.ccwrongurlabcdWrong1232&thisisnotaquery
+schemewrongurl9255.fake.ccwrongurlabcdWrong1232()()()
+abcdefgcom.google.wwwxyz@1!@$!fakequery
+abcdefgcom.google.wwwxyz@1!@$&thisisnotaquery
+abcdefgcom.google.wwwxyz@1!@$()()()
+abcdefgcom.google.wwwxyz%#$#$#$!fakequery
+abcdefgcom.google.wwwxyz%#$#$#$&thisisnotaquery
+abcdefgcom.google.wwwxyz%#$#$#$()()()
+abcdefgcom.google.wwwxyzwrongURLpath.http!fakequery
+abcdefgcom.google.wwwxyzwrongURLpath.http&thisisnotaquery
+abcdefgcom.google.wwwxyzwrongURLpath.http()()()
+abcdefgcom.google.wwwxyz~~~12!fakequery
+abcdefgcom.google.wwwxyz~~~12&thisisnotaquery
+abcdefgcom.google.wwwxyz~~~12()()()
+abcdefgcom.google.wwwxyzabcdWrong1232!fakequery
+abcdefgcom.google.wwwxyzabcdWrong1232&thisisnotaquery
+abcdefgcom.google.wwwxyzabcdWrong1232()()()
+abcdefgcom.google.wwwz123@1!@$!fakequery
+abcdefgcom.google.wwwz123@1!@$&thisisnotaquery
+abcdefgcom.google.wwwz123@1!@$()()()
+abcdefgcom.google.wwwz123%#$#$#$!fakequery
+abcdefgcom.google.wwwz123%#$#$#$&thisisnotaquery
+abcdefgcom.google.wwwz123%#$#$#$()()()
+abcdefgcom.google.wwwz123wrongURLpath.http!fakequery
+abcdefgcom.google.wwwz123wrongURLpath.http&thisisnotaquery
+abcdefgcom.google.wwwz123wrongURLpath.http()()()
+abcdefgcom.google.wwwz123~~~12!fakequery
+abcdefgcom.google.wwwz123~~~12&thisisnotaquery
+abcdefgcom.google.wwwz123~~~12()()()
+abcdefgcom.google.wwwz123abcdWrong1232!fakequery
+abcdefgcom.google.wwwz123abcdWrong1232&thisisnotaquery
+abcdefgcom.google.wwwz123abcdWrong1232()()()
+abcdefgcom.google.wwwabcd@1!@$!fakequery
+abcdefgcom.google.wwwabcd@1!@$&thisisnotaquery
+abcdefgcom.google.wwwabcd@1!@$()()()
+abcdefgcom.google.wwwabcd%#$#$#$!fakequery
+abcdefgcom.google.wwwabcd%#$#$#$&thisisnotaquery
+abcdefgcom.google.wwwabcd%#$#$#$()()()
+abcdefgcom.google.wwwabcdwrongURLpath.http!fakequery
+abcdefgcom.google.wwwabcdwrongURLpath.http&thisisnotaquery
+abcdefgcom.google.wwwabcdwrongURLpath.http()()()
+abcdefgcom.google.wwwabcd~~~12!fakequery
+abcdefgcom.google.wwwabcd~~~12&thisisnotaquery
+abcdefgcom.google.wwwabcd~~~12()()()
+abcdefgcom.google.wwwabcdabcdWrong1232!fakequery
+abcdefgcom.google.wwwabcdabcdWrong1232&thisisnotaquery
+abcdefgcom.google.wwwabcdabcdWrong1232()()()
+abcdefgcom.google.wwwwrongurl@1!@$!fakequery
+abcdefgcom.google.wwwwrongurl@1!@$&thisisnotaquery
+abcdefgcom.google.wwwwrongurl@1!@$()()()
+abcdefgcom.google.wwwwrongurl%#$#$#$!fakequery
+abcdefgcom.google.wwwwrongurl%#$#$#$&thisisnotaquery
+abcdefgcom.google.wwwwrongurl%#$#$#$()()()
+abcdefgcom.google.wwwwrongurlwrongURLpath.http!fakequery
+abcdefgcom.google.wwwwrongurlwrongURLpath.http&thisisnotaquery
+abcdefgcom.google.wwwwrongurlwrongURLpath.http()()()
+abcdefgcom.google.wwwwrongurl~~~12!fakequery
+abcdefgcom.google.wwwwrongurl~~~12&thisisnotaquery
+abcdefgcom.google.wwwwrongurl~~~12()()()
+abcdefgcom.google.wwwwrongurlabcdWrong1232!fakequery
+abcdefgcom.google.wwwwrongurlabcdWrong1232&thisisnotaquery
+abcdefgcom.google.wwwwrongurlabcdWrong1232()()()
+abcdefginvalid.url.httpxyz@1!@$!fakequery
+abcdefginvalid.url.httpxyz@1!@$&thisisnotaquery
+abcdefginvalid.url.httpxyz@1!@$()()()
+abcdefginvalid.url.httpxyz%#$#$#$!fakequery
+abcdefginvalid.url.httpxyz%#$#$#$&thisisnotaquery
+abcdefginvalid.url.httpxyz%#$#$#$()()()
+abcdefginvalid.url.httpxyzwrongURLpath.http!fakequery
+abcdefginvalid.url.httpxyzwrongURLpath.http&thisisnotaquery
+abcdefginvalid.url.httpxyzwrongURLpath.http()()()
+abcdefginvalid.url.httpxyz~~~12!fakequery
+abcdefginvalid.url.httpxyz~~~12&thisisnotaquery
+abcdefginvalid.url.httpxyz~~~12()()()
+abcdefginvalid.url.httpxyzabcdWrong1232!fakequery
+abcdefginvalid.url.httpxyzabcdWrong1232&thisisnotaquery
+abcdefginvalid.url.httpxyzabcdWrong1232()()()
+abcdefginvalid.url.httpz123@1!@$!fakequery
+abcdefginvalid.url.httpz123@1!@$&thisisnotaquery
+abcdefginvalid.url.httpz123@1!@$()()()
+abcdefginvalid.url.httpz123%#$#$#$!fakequery
+abcdefginvalid.url.httpz123%#$#$#$&thisisnotaquery
+abcdefginvalid.url.httpz123%#$#$#$()()()
+abcdefginvalid.url.httpz123wrongURLpath.http!fakequery
+abcdefginvalid.url.httpz123wrongURLpath.http&thisisnotaquery
+abcdefginvalid.url.httpz123wrongURLpath.http()()()
+abcdefginvalid.url.httpz123~~~12!fakequery
+abcdefginvalid.url.httpz123~~~12&thisisnotaquery
+abcdefginvalid.url.httpz123~~~12()()()
+abcdefginvalid.url.httpz123abcdWrong1232!fakequery
+abcdefginvalid.url.httpz123abcdWrong1232&thisisnotaquery
+abcdefginvalid.url.httpz123abcdWrong1232()()()
+abcdefginvalid.url.httpabcd@1!@$!fakequery
+abcdefginvalid.url.httpabcd@1!@$&thisisnotaquery
+abcdefginvalid.url.httpabcd@1!@$()()()
+abcdefginvalid.url.httpabcd%#$#$#$!fakequery
+abcdefginvalid.url.httpabcd%#$#$#$&thisisnotaquery
+abcdefginvalid.url.httpabcd%#$#$#$()()()
+abcdefginvalid.url.httpabcdwrongURLpath.http!fakequery
+abcdefginvalid.url.httpabcdwrongURLpath.http&thisisnotaquery
+abcdefginvalid.url.httpabcdwrongURLpath.http()()()
+abcdefginvalid.url.httpabcd~~~12!fakequery
+abcdefginvalid.url.httpabcd~~~12&thisisnotaquery
+abcdefginvalid.url.httpabcd~~~12()()()
+abcdefginvalid.url.httpabcdabcdWrong1232!fakequery
+abcdefginvalid.url.httpabcdabcdWrong1232&thisisnotaquery
+abcdefginvalid.url.httpabcdabcdWrong1232()()()
+abcdefginvalid.url.httpwrongurl@1!@$!fakequery
+abcdefginvalid.url.httpwrongurl@1!@$&thisisnotaquery
+abcdefginvalid.url.httpwrongurl@1!@$()()()
+abcdefginvalid.url.httpwrongurl%#$#$#$!fakequery
+abcdefginvalid.url.httpwrongurl%#$#$#$&thisisnotaquery
+abcdefginvalid.url.httpwrongurl%#$#$#$()()()
+abcdefginvalid.url.httpwrongurlwrongURLpath.http!fakequery
+abcdefginvalid.url.httpwrongurlwrongURLpath.http&thisisnotaquery
+abcdefginvalid.url.httpwrongurlwrongURLpath.http()()()
+abcdefginvalid.url.httpwrongurl~~~12!fakequery
+abcdefginvalid.url.httpwrongurl~~~12&thisisnotaquery
+abcdefginvalid.url.httpwrongurl~~~12()()()
+abcdefginvalid.url.httpwrongurlabcdWrong1232!fakequery
+abcdefginvalid.url.httpwrongurlabcdWrong1232&thisisnotaquery
+abcdefginvalid.url.httpwrongurlabcdWrong1232()()()
+abcdefgplastic.trees.are.fakexyz@1!@$!fakequery
+abcdefgplastic.trees.are.fakexyz@1!@$&thisisnotaquery
+abcdefgplastic.trees.are.fakexyz@1!@$()()()
+abcdefgplastic.trees.are.fakexyz%#$#$#$!fakequery
+abcdefgplastic.trees.are.fakexyz%#$#$#$&thisisnotaquery
+abcdefgplastic.trees.are.fakexyz%#$#$#$()()()
+abcdefgplastic.trees.are.fakexyzwrongURLpath.http!fakequery
+abcdefgplastic.trees.are.fakexyzwrongURLpath.http&thisisnotaquery
+abcdefgplastic.trees.are.fakexyzwrongURLpath.http()()()
+abcdefgplastic.trees.are.fakexyz~~~12!fakequery
+abcdefgplastic.trees.are.fakexyz~~~12&thisisnotaquery
+abcdefgplastic.trees.are.fakexyz~~~12()()()
+abcdefgplastic.trees.are.fakexyzabcdWrong1232!fakequery
+abcdefgplastic.trees.are.fakexyzabcdWrong1232&thisisnotaquery
+abcdefgplastic.trees.are.fakexyzabcdWrong1232()()()
+abcdefgplastic.trees.are.fakez123@1!@$!fakequery
+abcdefgplastic.trees.are.fakez123@1!@$&thisisnotaquery
+abcdefgplastic.trees.are.fakez123@1!@$()()()
+abcdefgplastic.trees.are.fakez123%#$#$#$!fakequery
+abcdefgplastic.trees.are.fakez123%#$#$#$&thisisnotaquery
+abcdefgplastic.trees.are.fakez123%#$#$#$()()()
+abcdefgplastic.trees.are.fakez123wrongURLpath.http!fakequery
+abcdefgplastic.trees.are.fakez123wrongURLpath.http&thisisnotaquery
+abcdefgplastic.trees.are.fakez123wrongURLpath.http()()()
+abcdefgplastic.trees.are.fakez123~~~12!fakequery
+abcdefgplastic.trees.are.fakez123~~~12&thisisnotaquery
+abcdefgplastic.trees.are.fakez123~~~12()()()
+abcdefgplastic.trees.are.fakez123abcdWrong1232!fakequery
+abcdefgplastic.trees.are.fakez123abcdWrong1232&thisisnotaquery
+abcdefgplastic.trees.are.fakez123abcdWrong1232()()()
+abcdefgplastic.trees.are.fakeabcd@1!@$!fakequery
+abcdefgplastic.trees.are.fakeabcd@1!@$&thisisnotaquery
+abcdefgplastic.trees.are.fakeabcd@1!@$()()()
+abcdefgplastic.trees.are.fakeabcd%#$#$#$!fakequery
+abcdefgplastic.trees.are.fakeabcd%#$#$#$&thisisnotaquery
+abcdefgplastic.trees.are.fakeabcd%#$#$#$()()()
+abcdefgplastic.trees.are.fakeabcdwrongURLpath.http!fakequery
+abcdefgplastic.trees.are.fakeabcdwrongURLpath.http&thisisnotaquery
+abcdefgplastic.trees.are.fakeabcdwrongURLpath.http()()()
+abcdefgplastic.trees.are.fakeabcd~~~12!fakequery
+abcdefgplastic.trees.are.fakeabcd~~~12&thisisnotaquery
+abcdefgplastic.trees.are.fakeabcd~~~12()()()
+abcdefgplastic.trees.are.fakeabcdabcdWrong1232!fakequery
+abcdefgplastic.trees.are.fakeabcdabcdWrong1232&thisisnotaquery
+abcdefgplastic.trees.are.fakeabcdabcdWrong1232()()()
+abcdefgplastic.trees.are.fakewrongurl@1!@$!fakequery
+abcdefgplastic.trees.are.fakewrongurl@1!@$&thisisnotaquery
+abcdefgplastic.trees.are.fakewrongurl@1!@$()()()
+abcdefgplastic.trees.are.fakewrongurl%#$#$#$!fakequery
+abcdefgplastic.trees.are.fakewrongurl%#$#$#$&thisisnotaquery
+abcdefgplastic.trees.are.fakewrongurl%#$#$#$()()()
+abcdefgplastic.trees.are.fakewrongurlwrongURLpath.http!fakequery
+abcdefgplastic.trees.are.fakewrongurlwrongURLpath.http&thisisnotaquery
+abcdefgplastic.trees.are.fakewrongurlwrongURLpath.http()()()
+abcdefgplastic.trees.are.fakewrongurl~~~12!fakequery
+abcdefgplastic.trees.are.fakewrongurl~~~12&thisisnotaquery
+abcdefgplastic.trees.are.fakewrongurl~~~12()()()
+abcdefgplastic.trees.are.fakewrongurlabcdWrong1232!fakequery
+abcdefgplastic.trees.are.fakewrongurlabcdWrong1232&thisisnotaquery
+abcdefgplastic.trees.are.fakewrongurlabcdWrong1232()()()
+abcdefgcanadian.geese.urlfakexyz@1!@$!fakequery
+abcdefgcanadian.geese.urlfakexyz@1!@$&thisisnotaquery
+abcdefgcanadian.geese.urlfakexyz@1!@$()()()
+abcdefgcanadian.geese.urlfakexyz%#$#$#$!fakequery
+abcdefgcanadian.geese.urlfakexyz%#$#$#$&thisisnotaquery
+abcdefgcanadian.geese.urlfakexyz%#$#$#$()()()
+abcdefgcanadian.geese.urlfakexyzwrongURLpath.http!fakequery
+abcdefgcanadian.geese.urlfakexyzwrongURLpath.http&thisisnotaquery
+abcdefgcanadian.geese.urlfakexyzwrongURLpath.http()()()
+abcdefgcanadian.geese.urlfakexyz~~~12!fakequery
+abcdefgcanadian.geese.urlfakexyz~~~12&thisisnotaquery
+abcdefgcanadian.geese.urlfakexyz~~~12()()()
+abcdefgcanadian.geese.urlfakexyzabcdWrong1232!fakequery
+abcdefgcanadian.geese.urlfakexyzabcdWrong1232&thisisnotaquery
+abcdefgcanadian.geese.urlfakexyzabcdWrong1232()()()
+abcdefgcanadian.geese.urlfakez123@1!@$!fakequery
+abcdefgcanadian.geese.urlfakez123@1!@$&thisisnotaquery
+abcdefgcanadian.geese.urlfakez123@1!@$()()()
+abcdefgcanadian.geese.urlfakez123%#$#$#$!fakequery
+abcdefgcanadian.geese.urlfakez123%#$#$#$&thisisnotaquery
+abcdefgcanadian.geese.urlfakez123%#$#$#$()()()
+abcdefgcanadian.geese.urlfakez123wrongURLpath.http!fakequery
+abcdefgcanadian.geese.urlfakez123wrongURLpath.http&thisisnotaquery
+abcdefgcanadian.geese.urlfakez123wrongURLpath.http()()()
+abcdefgcanadian.geese.urlfakez123~~~12!fakequery
+abcdefgcanadian.geese.urlfakez123~~~12&thisisnotaquery
+abcdefgcanadian.geese.urlfakez123~~~12()()()
+abcdefgcanadian.geese.urlfakez123abcdWrong1232!fakequery
+abcdefgcanadian.geese.urlfakez123abcdWrong1232&thisisnotaquery
+abcdefgcanadian.geese.urlfakez123abcdWrong1232()()()
+abcdefgcanadian.geese.urlfakeabcd@1!@$!fakequery
+abcdefgcanadian.geese.urlfakeabcd@1!@$&thisisnotaquery
+abcdefgcanadian.geese.urlfakeabcd@1!@$()()()
+abcdefgcanadian.geese.urlfakeabcd%#$#$#$!fakequery
+abcdefgcanadian.geese.urlfakeabcd%#$#$#$&thisisnotaquery
+abcdefgcanadian.geese.urlfakeabcd%#$#$#$()()()
+abcdefgcanadian.geese.urlfakeabcdwrongURLpath.http!fakequery
+abcdefgcanadian.geese.urlfakeabcdwrongURLpath.http&thisisnotaquery
+abcdefgcanadian.geese.urlfakeabcdwrongURLpath.http()()()
+abcdefgcanadian.geese.urlfakeabcd~~~12!fakequery
+abcdefgcanadian.geese.urlfakeabcd~~~12&thisisnotaquery
+abcdefgcanadian.geese.urlfakeabcd~~~12()()()
+abcdefgcanadian.geese.urlfakeabcdabcdWrong1232!fakequery
+abcdefgcanadian.geese.urlfakeabcdabcdWrong1232&thisisnotaquery
+abcdefgcanadian.geese.urlfakeabcdabcdWrong1232()()()
+abcdefgcanadian.geese.urlfakewrongurl@1!@$!fakequery
+abcdefgcanadian.geese.urlfakewrongurl@1!@$&thisisnotaquery
+abcdefgcanadian.geese.urlfakewrongurl@1!@$()()()
+abcdefgcanadian.geese.urlfakewrongurl%#$#$#$!fakequery
+abcdefgcanadian.geese.urlfakewrongurl%#$#$#$&thisisnotaquery
+abcdefgcanadian.geese.urlfakewrongurl%#$#$#$()()()
+abcdefgcanadian.geese.urlfakewrongurlwrongURLpath.http!fakequery
+abcdefgcanadian.geese.urlfakewrongurlwrongURLpath.http&thisisnotaquery
+abcdefgcanadian.geese.urlfakewrongurlwrongURLpath.http()()()
+abcdefgcanadian.geese.urlfakewrongurl~~~12!fakequery
+abcdefgcanadian.geese.urlfakewrongurl~~~12&thisisnotaquery
+abcdefgcanadian.geese.urlfakewrongurl~~~12()()()
+abcdefgcanadian.geese.urlfakewrongurlabcdWrong1232!fakequery
+abcdefgcanadian.geese.urlfakewrongurlabcdWrong1232&thisisnotaquery
+abcdefgcanadian.geese.urlfakewrongurlabcdWrong1232()()()
+abcdefg9255.fake.ccxyz@1!@$!fakequery
+abcdefg9255.fake.ccxyz@1!@$&thisisnotaquery
+abcdefg9255.fake.ccxyz@1!@$()()()
+abcdefg9255.fake.ccxyz%#$#$#$!fakequery
+abcdefg9255.fake.ccxyz%#$#$#$&thisisnotaquery
+abcdefg9255.fake.ccxyz%#$#$#$()()()
+abcdefg9255.fake.ccxyzwrongURLpath.http!fakequery
+abcdefg9255.fake.ccxyzwrongURLpath.http&thisisnotaquery
+abcdefg9255.fake.ccxyzwrongURLpath.http()()()
+abcdefg9255.fake.ccxyz~~~12!fakequery
+abcdefg9255.fake.ccxyz~~~12&thisisnotaquery
+abcdefg9255.fake.ccxyz~~~12()()()
+abcdefg9255.fake.ccxyzabcdWrong1232!fakequery
+abcdefg9255.fake.ccxyzabcdWrong1232&thisisnotaquery
+abcdefg9255.fake.ccxyzabcdWrong1232()()()
+abcdefg9255.fake.ccz123@1!@$!fakequery
+abcdefg9255.fake.ccz123@1!@$&thisisnotaquery
+abcdefg9255.fake.ccz123@1!@$()()()
+abcdefg9255.fake.ccz123%#$#$#$!fakequery
+abcdefg9255.fake.ccz123%#$#$#$&thisisnotaquery
+abcdefg9255.fake.ccz123%#$#$#$()()()
+abcdefg9255.fake.ccz123wrongURLpath.http!fakequery
+abcdefg9255.fake.ccz123wrongURLpath.http&thisisnotaquery
+abcdefg9255.fake.ccz123wrongURLpath.http()()()
+abcdefg9255.fake.ccz123~~~12!fakequery
+abcdefg9255.fake.ccz123~~~12&thisisnotaquery
+abcdefg9255.fake.ccz123~~~12()()()
+abcdefg9255.fake.ccz123abcdWrong1232!fakequery
+abcdefg9255.fake.ccz123abcdWrong1232&thisisnotaquery
+abcdefg9255.fake.ccz123abcdWrong1232()()()
+abcdefg9255.fake.ccabcd@1!@$!fakequery
+abcdefg9255.fake.ccabcd@1!@$&thisisnotaquery
+abcdefg9255.fake.ccabcd@1!@$()()()
+abcdefg9255.fake.ccabcd%#$#$#$!fakequery
+abcdefg9255.fake.ccabcd%#$#$#$&thisisnotaquery
+abcdefg9255.fake.ccabcd%#$#$#$()()()
+abcdefg9255.fake.ccabcdwrongURLpath.http!fakequery
+abcdefg9255.fake.ccabcdwrongURLpath.http&thisisnotaquery
+abcdefg9255.fake.ccabcdwrongURLpath.http()()()
+abcdefg9255.fake.ccabcd~~~12!fakequery
+abcdefg9255.fake.ccabcd~~~12&thisisnotaquery
+abcdefg9255.fake.ccabcd~~~12()()()
+abcdefg9255.fake.ccabcdabcdWrong1232!fakequery
+abcdefg9255.fake.ccabcdabcdWrong1232&thisisnotaquery
+abcdefg9255.fake.ccabcdabcdWrong1232()()()
+abcdefg9255.fake.ccwrongurl@1!@$!fakequery
+abcdefg9255.fake.ccwrongurl@1!@$&thisisnotaquery
+abcdefg9255.fake.ccwrongurl@1!@$()()()
+abcdefg9255.fake.ccwrongurl%#$#$#$!fakequery
+abcdefg9255.fake.ccwrongurl%#$#$#$&thisisnotaquery
+abcdefg9255.fake.ccwrongurl%#$#$#$()()()
+abcdefg9255.fake.ccwrongurlwrongURLpath.http!fakequery
+abcdefg9255.fake.ccwrongurlwrongURLpath.http&thisisnotaquery
+abcdefg9255.fake.ccwrongurlwrongURLpath.http()()()
+abcdefg9255.fake.ccwrongurl~~~12!fakequery
+abcdefg9255.fake.ccwrongurl~~~12&thisisnotaquery
+abcdefg9255.fake.ccwrongurl~~~12()()()
+abcdefg9255.fake.ccwrongurlabcdWrong1232!fakequery
+abcdefg9255.fake.ccwrongurlabcdWrong1232&thisisnotaquery
+abcdefg9255.fake.ccwrongurlabcdWrong1232()()()
+hicom.google.wwwxyz@1!@$!fakequery
+hicom.google.wwwxyz@1!@$&thisisnotaquery
+hicom.google.wwwxyz@1!@$()()()
+hicom.google.wwwxyz%#$#$#$!fakequery
+hicom.google.wwwxyz%#$#$#$&thisisnotaquery
+hicom.google.wwwxyz%#$#$#$()()()
+hicom.google.wwwxyzwrongURLpath.http!fakequery
+hicom.google.wwwxyzwrongURLpath.http&thisisnotaquery
+hicom.google.wwwxyzwrongURLpath.http()()()
+hicom.google.wwwxyz~~~12!fakequery
+hicom.google.wwwxyz~~~12&thisisnotaquery
+hicom.google.wwwxyz~~~12()()()
+hicom.google.wwwxyzabcdWrong1232!fakequery
+hicom.google.wwwxyzabcdWrong1232&thisisnotaquery
+hicom.google.wwwxyzabcdWrong1232()()()
+hicom.google.wwwz123@1!@$!fakequery
+hicom.google.wwwz123@1!@$&thisisnotaquery
+hicom.google.wwwz123@1!@$()()()
+hicom.google.wwwz123%#$#$#$!fakequery
+hicom.google.wwwz123%#$#$#$&thisisnotaquery
+hicom.google.wwwz123%#$#$#$()()()
+hicom.google.wwwz123wrongURLpath.http!fakequery
+hicom.google.wwwz123wrongURLpath.http&thisisnotaquery
+hicom.google.wwwz123wrongURLpath.http()()()
+hicom.google.wwwz123~~~12!fakequery
+hicom.google.wwwz123~~~12&thisisnotaquery
+hicom.google.wwwz123~~~12()()()
+hicom.google.wwwz123abcdWrong1232!fakequery
+hicom.google.wwwz123abcdWrong1232&thisisnotaquery
+hicom.google.wwwz123abcdWrong1232()()()
+hicom.google.wwwabcd@1!@$!fakequery
+hicom.google.wwwabcd@1!@$&thisisnotaquery
+hicom.google.wwwabcd@1!@$()()()
+hicom.google.wwwabcd%#$#$#$!fakequery
+hicom.google.wwwabcd%#$#$#$&thisisnotaquery
+hicom.google.wwwabcd%#$#$#$()()()
+hicom.google.wwwabcdwrongURLpath.http!fakequery
+hicom.google.wwwabcdwrongURLpath.http&thisisnotaquery
+hicom.google.wwwabcdwrongURLpath.http()()()
+hicom.google.wwwabcd~~~12!fakequery
+hicom.google.wwwabcd~~~12&thisisnotaquery
+hicom.google.wwwabcd~~~12()()()
+hicom.google.wwwabcdabcdWrong1232!fakequery
+hicom.google.wwwabcdabcdWrong1232&thisisnotaquery
+hicom.google.wwwabcdabcdWrong1232()()()
+hicom.google.wwwwrongurl@1!@$!fakequery
+hicom.google.wwwwrongurl@1!@$&thisisnotaquery
+hicom.google.wwwwrongurl@1!@$()()()
+hicom.google.wwwwrongurl%#$#$#$!fakequery
+hicom.google.wwwwrongurl%#$#$#$&thisisnotaquery
+hicom.google.wwwwrongurl%#$#$#$()()()
+hicom.google.wwwwrongurlwrongURLpath.http!fakequery
+hicom.google.wwwwrongurlwrongURLpath.http&thisisnotaquery
+hicom.google.wwwwrongurlwrongURLpath.http()()()
+hicom.google.wwwwrongurl~~~12!fakequery
+hicom.google.wwwwrongurl~~~12&thisisnotaquery
+hicom.google.wwwwrongurl~~~12()()()
+hicom.google.wwwwrongurlabcdWrong1232!fakequery
+hicom.google.wwwwrongurlabcdWrong1232&thisisnotaquery
+hicom.google.wwwwrongurlabcdWrong1232()()()
+hiinvalid.url.httpxyz@1!@$!fakequery
+hiinvalid.url.httpxyz@1!@$&thisisnotaquery
+hiinvalid.url.httpxyz@1!@$()()()
+hiinvalid.url.httpxyz%#$#$#$!fakequery
+hiinvalid.url.httpxyz%#$#$#$&thisisnotaquery
+hiinvalid.url.httpxyz%#$#$#$()()()
+hiinvalid.url.httpxyzwrongURLpath.http!fakequery
+hiinvalid.url.httpxyzwrongURLpath.http&thisisnotaquery
+hiinvalid.url.httpxyzwrongURLpath.http()()()
+hiinvalid.url.httpxyz~~~12!fakequery
+hiinvalid.url.httpxyz~~~12&thisisnotaquery
+hiinvalid.url.httpxyz~~~12()()()
+hiinvalid.url.httpxyzabcdWrong1232!fakequery
+hiinvalid.url.httpxyzabcdWrong1232&thisisnotaquery
+hiinvalid.url.httpxyzabcdWrong1232()()()
+hiinvalid.url.httpz123@1!@$!fakequery
+hiinvalid.url.httpz123@1!@$&thisisnotaquery
+hiinvalid.url.httpz123@1!@$()()()
+hiinvalid.url.httpz123%#$#$#$!fakequery
+hiinvalid.url.httpz123%#$#$#$&thisisnotaquery
+hiinvalid.url.httpz123%#$#$#$()()()
+hiinvalid.url.httpz123wrongURLpath.http!fakequery
+hiinvalid.url.httpz123wrongURLpath.http&thisisnotaquery
+hiinvalid.url.httpz123wrongURLpath.http()()()
+hiinvalid.url.httpz123~~~12!fakequery
+hiinvalid.url.httpz123~~~12&thisisnotaquery
+hiinvalid.url.httpz123~~~12()()()
+hiinvalid.url.httpz123abcdWrong1232!fakequery
+hiinvalid.url.httpz123abcdWrong1232&thisisnotaquery
+hiinvalid.url.httpz123abcdWrong1232()()()
+hiinvalid.url.httpabcd@1!@$!fakequery
+hiinvalid.url.httpabcd@1!@$&thisisnotaquery
+hiinvalid.url.httpabcd@1!@$()()()
+hiinvalid.url.httpabcd%#$#$#$!fakequery
+hiinvalid.url.httpabcd%#$#$#$&thisisnotaquery
+hiinvalid.url.httpabcd%#$#$#$()()()
+hiinvalid.url.httpabcdwrongURLpath.http!fakequery
+hiinvalid.url.httpabcdwrongURLpath.http&thisisnotaquery
+hiinvalid.url.httpabcdwrongURLpath.http()()()
+hiinvalid.url.httpabcd~~~12!fakequery
+hiinvalid.url.httpabcd~~~12&thisisnotaquery
+hiinvalid.url.httpabcd~~~12()()()
+hiinvalid.url.httpabcdabcdWrong1232!fakequery
+hiinvalid.url.httpabcdabcdWrong1232&thisisnotaquery
+hiinvalid.url.httpabcdabcdWrong1232()()()
+hiinvalid.url.httpwrongurl@1!@$!fakequery
+hiinvalid.url.httpwrongurl@1!@$&thisisnotaquery
+hiinvalid.url.httpwrongurl@1!@$()()()
+hiinvalid.url.httpwrongurl%#$#$#$!fakequery
+hiinvalid.url.httpwrongurl%#$#$#$&thisisnotaquery
+hiinvalid.url.httpwrongurl%#$#$#$()()()
+hiinvalid.url.httpwrongurlwrongURLpath.http!fakequery
+hiinvalid.url.httpwrongurlwrongURLpath.http&thisisnotaquery
+hiinvalid.url.httpwrongurlwrongURLpath.http()()()
+hiinvalid.url.httpwrongurl~~~12!fakequery
+hiinvalid.url.httpwrongurl~~~12&thisisnotaquery
+hiinvalid.url.httpwrongurl~~~12()()()
+hiinvalid.url.httpwrongurlabcdWrong1232!fakequery
+hiinvalid.url.httpwrongurlabcdWrong1232&thisisnotaquery
+hiinvalid.url.httpwrongurlabcdWrong1232()()()
+hiplastic.trees.are.fakexyz@1!@$!fakequery
+hiplastic.trees.are.fakexyz@1!@$&thisisnotaquery
+hiplastic.trees.are.fakexyz@1!@$()()()
+hiplastic.trees.are.fakexyz%#$#$#$!fakequery
+hiplastic.trees.are.fakexyz%#$#$#$&thisisnotaquery
+hiplastic.trees.are.fakexyz%#$#$#$()()()
+hiplastic.trees.are.fakexyzwrongURLpath.http!fakequery
+hiplastic.trees.are.fakexyzwrongURLpath.http&thisisnotaquery
+hiplastic.trees.are.fakexyzwrongURLpath.http()()()
+hiplastic.trees.are.fakexyz~~~12!fakequery
+hiplastic.trees.are.fakexyz~~~12&thisisnotaquery
+hiplastic.trees.are.fakexyz~~~12()()()
+hiplastic.trees.are.fakexyzabcdWrong1232!fakequery
+hiplastic.trees.are.fakexyzabcdWrong1232&thisisnotaquery
+hiplastic.trees.are.fakexyzabcdWrong1232()()()
+hiplastic.trees.are.fakez123@1!@$!fakequery
+hiplastic.trees.are.fakez123@1!@$&thisisnotaquery
+hiplastic.trees.are.fakez123@1!@$()()()
+hiplastic.trees.are.fakez123%#$#$#$!fakequery
+hiplastic.trees.are.fakez123%#$#$#$&thisisnotaquery
+hiplastic.trees.are.fakez123%#$#$#$()()()
+hiplastic.trees.are.fakez123wrongURLpath.http!fakequery
+hiplastic.trees.are.fakez123wrongURLpath.http&thisisnotaquery
+hiplastic.trees.are.fakez123wrongURLpath.http()()()
+hiplastic.trees.are.fakez123~~~12!fakequery
+hiplastic.trees.are.fakez123~~~12&thisisnotaquery
+hiplastic.trees.are.fakez123~~~12()()()
+hiplastic.trees.are.fakez123abcdWrong1232!fakequery
+hiplastic.trees.are.fakez123abcdWrong1232&thisisnotaquery
+hiplastic.trees.are.fakez123abcdWrong1232()()()
+hiplastic.trees.are.fakeabcd@1!@$!fakequery
+hiplastic.trees.are.fakeabcd@1!@$&thisisnotaquery
+hiplastic.trees.are.fakeabcd@1!@$()()()
+hiplastic.trees.are.fakeabcd%#$#$#$!fakequery
+hiplastic.trees.are.fakeabcd%#$#$#$&thisisnotaquery
+hiplastic.trees.are.fakeabcd%#$#$#$()()()
+hiplastic.trees.are.fakeabcdwrongURLpath.http!fakequery
+hiplastic.trees.are.fakeabcdwrongURLpath.http&thisisnotaquery
+hiplastic.trees.are.fakeabcdwrongURLpath.http()()()
+hiplastic.trees.are.fakeabcd~~~12!fakequery
+hiplastic.trees.are.fakeabcd~~~12&thisisnotaquery
+hiplastic.trees.are.fakeabcd~~~12()()()
+hiplastic.trees.are.fakeabcdabcdWrong1232!fakequery
+hiplastic.trees.are.fakeabcdabcdWrong1232&thisisnotaquery
+hiplastic.trees.are.fakeabcdabcdWrong1232()()()
+hiplastic.trees.are.fakewrongurl@1!@$!fakequery
+hiplastic.trees.are.fakewrongurl@1!@$&thisisnotaquery
+hiplastic.trees.are.fakewrongurl@1!@$()()()
+hiplastic.trees.are.fakewrongurl%#$#$#$!fakequery
+hiplastic.trees.are.fakewrongurl%#$#$#$&thisisnotaquery
+hiplastic.trees.are.fakewrongurl%#$#$#$()()()
+hiplastic.trees.are.fakewrongurlwrongURLpath.http!fakequery
+hiplastic.trees.are.fakewrongurlwrongURLpath.http&thisisnotaquery
+hiplastic.trees.are.fakewrongurlwrongURLpath.http()()()
+hiplastic.trees.are.fakewrongurl~~~12!fakequery
+hiplastic.trees.are.fakewrongurl~~~12&thisisnotaquery
+hiplastic.trees.are.fakewrongurl~~~12()()()
+hiplastic.trees.are.fakewrongurlabcdWrong1232!fakequery
+hiplastic.trees.are.fakewrongurlabcdWrong1232&thisisnotaquery
+hiplastic.trees.are.fakewrongurlabcdWrong1232()()()
+hicanadian.geese.urlfakexyz@1!@$!fakequery
+hicanadian.geese.urlfakexyz@1!@$&thisisnotaquery
+hicanadian.geese.urlfakexyz@1!@$()()()
+hicanadian.geese.urlfakexyz%#$#$#$!fakequery
+hicanadian.geese.urlfakexyz%#$#$#$&thisisnotaquery
+hicanadian.geese.urlfakexyz%#$#$#$()()()
+hicanadian.geese.urlfakexyzwrongURLpath.http!fakequery
+hicanadian.geese.urlfakexyzwrongURLpath.http&thisisnotaquery
+hicanadian.geese.urlfakexyzwrongURLpath.http()()()
+hicanadian.geese.urlfakexyz~~~12!fakequery
+hicanadian.geese.urlfakexyz~~~12&thisisnotaquery
+hicanadian.geese.urlfakexyz~~~12()()()
+hicanadian.geese.urlfakexyzabcdWrong1232!fakequery
+hicanadian.geese.urlfakexyzabcdWrong1232&thisisnotaquery
+hicanadian.geese.urlfakexyzabcdWrong1232()()()
+hicanadian.geese.urlfakez123@1!@$!fakequery
+hicanadian.geese.urlfakez123@1!@$&thisisnotaquery
+hicanadian.geese.urlfakez123@1!@$()()()
+hicanadian.geese.urlfakez123%#$#$#$!fakequery
+hicanadian.geese.urlfakez123%#$#$#$&thisisnotaquery
+hicanadian.geese.urlfakez123%#$#$#$()()()
+hicanadian.geese.urlfakez123wrongURLpath.http!fakequery
+hicanadian.geese.urlfakez123wrongURLpath.http&thisisnotaquery
+hicanadian.geese.urlfakez123wrongURLpath.http()()()
+hicanadian.geese.urlfakez123~~~12!fakequery
+hicanadian.geese.urlfakez123~~~12&thisisnotaquery
+hicanadian.geese.urlfakez123~~~12()()()
+hicanadian.geese.urlfakez123abcdWrong1232!fakequery
+hicanadian.geese.urlfakez123abcdWrong1232&thisisnotaquery
+hicanadian.geese.urlfakez123abcdWrong1232()()()
+hicanadian.geese.urlfakeabcd@1!@$!fakequery
+hicanadian.geese.urlfakeabcd@1!@$&thisisnotaquery
+hicanadian.geese.urlfakeabcd@1!@$()()()
+hicanadian.geese.urlfakeabcd%#$#$#$!fakequery
+hicanadian.geese.urlfakeabcd%#$#$#$&thisisnotaquery
+hicanadian.geese.urlfakeabcd%#$#$#$()()()
+hicanadian.geese.urlfakeabcdwrongURLpath.http!fakequery
+hicanadian.geese.urlfakeabcdwrongURLpath.http&thisisnotaquery
+hicanadian.geese.urlfakeabcdwrongURLpath.http()()()
+hicanadian.geese.urlfakeabcd~~~12!fakequery
+hicanadian.geese.urlfakeabcd~~~12&thisisnotaquery
+hicanadian.geese.urlfakeabcd~~~12()()()
+hicanadian.geese.urlfakeabcdabcdWrong1232!fakequery
+hicanadian.geese.urlfakeabcdabcdWrong1232&thisisnotaquery
+hicanadian.geese.urlfakeabcdabcdWrong1232()()()
+hicanadian.geese.urlfakewrongurl@1!@$!fakequery
+hicanadian.geese.urlfakewrongurl@1!@$&thisisnotaquery
+hicanadian.geese.urlfakewrongurl@1!@$()()()
+hicanadian.geese.urlfakewrongurl%#$#$#$!fakequery
+hicanadian.geese.urlfakewrongurl%#$#$#$&thisisnotaquery
+hicanadian.geese.urlfakewrongurl%#$#$#$()()()
+hicanadian.geese.urlfakewrongurlwrongURLpath.http!fakequery
+hicanadian.geese.urlfakewrongurlwrongURLpath.http&thisisnotaquery
+hicanadian.geese.urlfakewrongurlwrongURLpath.http()()()
+hicanadian.geese.urlfakewrongurl~~~12!fakequery
+hicanadian.geese.urlfakewrongurl~~~12&thisisnotaquery
+hicanadian.geese.urlfakewrongurl~~~12()()()
+hicanadian.geese.urlfakewrongurlabcdWrong1232!fakequery
+hicanadian.geese.urlfakewrongurlabcdWrong1232&thisisnotaquery
+hicanadian.geese.urlfakewrongurlabcdWrong1232()()()
+hi9255.fake.ccxyz@1!@$!fakequery
+hi9255.fake.ccxyz@1!@$&thisisnotaquery
+hi9255.fake.ccxyz@1!@$()()()
+hi9255.fake.ccxyz%#$#$#$!fakequery
+hi9255.fake.ccxyz%#$#$#$&thisisnotaquery
+hi9255.fake.ccxyz%#$#$#$()()()
+hi9255.fake.ccxyzwrongURLpath.http!fakequery
+hi9255.fake.ccxyzwrongURLpath.http&thisisnotaquery
+hi9255.fake.ccxyzwrongURLpath.http()()()
+hi9255.fake.ccxyz~~~12!fakequery
+hi9255.fake.ccxyz~~~12&thisisnotaquery
+hi9255.fake.ccxyz~~~12()()()
+hi9255.fake.ccxyzabcdWrong1232!fakequery
+hi9255.fake.ccxyzabcdWrong1232&thisisnotaquery
+hi9255.fake.ccxyzabcdWrong1232()()()
+hi9255.fake.ccz123@1!@$!fakequery
+hi9255.fake.ccz123@1!@$&thisisnotaquery
+hi9255.fake.ccz123@1!@$()()()
+hi9255.fake.ccz123%#$#$#$!fakequery
+hi9255.fake.ccz123%#$#$#$&thisisnotaquery
+hi9255.fake.ccz123%#$#$#$()()()
+hi9255.fake.ccz123wrongURLpath.http!fakequery
+hi9255.fake.ccz123wrongURLpath.http&thisisnotaquery
+hi9255.fake.ccz123wrongURLpath.http()()()
+hi9255.fake.ccz123~~~12!fakequery
+hi9255.fake.ccz123~~~12&thisisnotaquery
+hi9255.fake.ccz123~~~12()()()
+hi9255.fake.ccz123abcdWrong1232!fakequery
+hi9255.fake.ccz123abcdWrong1232&thisisnotaquery
+hi9255.fake.ccz123abcdWrong1232()()()
+hi9255.fake.ccabcd@1!@$!fakequery
+hi9255.fake.ccabcd@1!@$&thisisnotaquery
+hi9255.fake.ccabcd@1!@$()()()
+hi9255.fake.ccabcd%#$#$#$!fakequery
+hi9255.fake.ccabcd%#$#$#$&thisisnotaquery
+hi9255.fake.ccabcd%#$#$#$()()()
+hi9255.fake.ccabcdwrongURLpath.http!fakequery
+hi9255.fake.ccabcdwrongURLpath.http&thisisnotaquery
+hi9255.fake.ccabcdwrongURLpath.http()()()
+hi9255.fake.ccabcd~~~12!fakequery
+hi9255.fake.ccabcd~~~12&thisisnotaquery
+hi9255.fake.ccabcd~~~12()()()
+hi9255.fake.ccabcdabcdWrong1232!fakequery
+hi9255.fake.ccabcdabcdWrong1232&thisisnotaquery
+hi9255.fake.ccabcdabcdWrong1232()()()
+hi9255.fake.ccwrongurl@1!@$!fakequery
+hi9255.fake.ccwrongurl@1!@$&thisisnotaquery
+hi9255.fake.ccwrongurl@1!@$()()()
+hi9255.fake.ccwrongurl%#$#$#$!fakequery
+hi9255.fake.ccwrongurl%#$#$#$&thisisnotaquery
+hi9255.fake.ccwrongurl%#$#$#$()()()
+hi9255.fake.ccwrongurlwrongURLpath.http!fakequery
+hi9255.fake.ccwrongurlwrongURLpath.http&thisisnotaquery
+hi9255.fake.ccwrongurlwrongURLpath.http()()()
+hi9255.fake.ccwrongurl~~~12!fakequery
+hi9255.fake.ccwrongurl~~~12&thisisnotaquery
+hi9255.fake.ccwrongurl~~~12()()()
+hi9255.fake.ccwrongurlabcdWrong1232!fakequery
+hi9255.fake.ccwrongurlabcdWrong1232&thisisnotaquery
+hi9255.fake.ccwrongurlabcdWrong1232()()()
+
+Testing valid and invalid Urls by building URL through use of random number generator
+
+test case #1
+3ht://www.apple.combadport/hi//&queryisfalse
+scheme is: 3ht://
+scheme should be invalid
+authority is: www.apple.com
+authority should be valid
+port is: badport
+port should be invalid
+path is: /hi//
+path should be invalid
+query is: &queryisfalse
+query should be invalid
+true
+
+test case #2
+h3t://com.asdf.wwwbadport/hi//
+scheme is: h3t://
+scheme should be valid
+authority is: com.asdf.www
+authority should be invalid
+port is: badport
+port should be invalid
+path is: /hi//
+path should be invalid
+query is: 
+query should be valid
+false
+
+test case #3
+http/asdf.com:0/hi//&queryisfalse
+scheme is: http/
+scheme should be invalid
+authority is: asdf.com
+authority should be valid
+port is: :0
+port should be valid
+path is: /hi//
+path should be invalid
+query is: &queryisfalse
+query should be invalid
+true
+
+test case #4
+h3t://this.is.invalidb1234/hi//%wrongquery
+scheme is: h3t://
+scheme should be valid
+authority is: this.is.invalid
+authority should be invalid
+port is: b1234
+port should be invalid
+path is: /hi//
+path should be invalid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #5
+ftp://com.asdf.www/$777
+scheme is: ftp://
+scheme should be valid
+authority is: com.asdf.www
+authority should be invalid
+port is: 
+port should be valid
+path is: /$777
+path should be valid
+query is: 
+query should be valid
+false
+
+test case #6
+http/com.asdf.wwwbadport/works5&queryisfalse
+scheme is: http/
+scheme should be invalid
+authority is: com.asdf.www
+authority should be invalid
+port is: badport
+port should be invalid
+path is: /works5
+path should be valid
+query is: &queryisfalse
+query should be invalid
+true
+
+test case #7
+h3t://happy.asdf.doesntworkb1234/$777?action=view
+scheme is: h3t://
+scheme should be valid
+authority is: happy.asdf.doesntwork
+authority should be invalid
+port is: b1234
+port should be invalid
+path is: /$777
+path should be valid
+query is: ?action=view
+query should be valid
+false
+
+test case #8
+ftp://asdf.com@$%%dontwork
+scheme is: ftp://
+scheme should be valid
+authority is: asdf.com
+authority should be valid
+port is: 
+port should be valid
+path is: @$%%dontwork
+path should be invalid
+query is: 
+query should be valid
+false
+
+test case #9
+http/255.255.255.255/happy3/?action=view
+scheme is: http/
+scheme should be invalid
+authority is: 255.255.255.255
+authority should be valid
+port is: 
+port should be valid
+path is: /happy3/
+path should be valid
+query is: ?action=view
+query should be valid
+true
+
+test case #10
+http/255.255.255.255/hi//
+scheme is: http/
+scheme should be invalid
+authority is: 255.255.255.255
+authority should be valid
+port is: 
+port should be valid
+path is: /hi//
+path should be invalid
+query is: 
+query should be valid
+true
+
+test case #11
+http/255.255.255.255badport/works5%wrongquery
+scheme is: http/
+scheme should be invalid
+authority is: 255.255.255.255
+authority should be valid
+port is: badport
+port should be invalid
+path is: /works5
+path should be valid
+query is: %wrongquery
+query should be invalid
+true
+
+test case #12
+ftp://255.255.255.255/hi//%wrongquery
+scheme is: ftp://
+scheme should be valid
+authority is: 255.255.255.255
+authority should be valid
+port is: 
+port should be valid
+path is: /hi//
+path should be invalid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #13
+http://www.apple.combadport/works5%wrongquery
+scheme is: http://
+scheme should be valid
+authority is: www.apple.com
+authority should be valid
+port is: badport
+port should be invalid
+path is: /works5
+path should be valid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #14
+ftp://255.255.255.255badport/works5&queryisfalse
+scheme is: ftp://
+scheme should be valid
+authority is: 255.255.255.255
+authority should be valid
+port is: badport
+port should be invalid
+path is: /works5
+path should be valid
+query is: &queryisfalse
+query should be invalid
+false
+
+test case #15
+http://255.255.255.255badport/happy3/%wrongquery
+scheme is: http://
+scheme should be valid
+authority is: 255.255.255.255
+authority should be valid
+port is: badport
+port should be invalid
+path is: /happy3/
+path should be valid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #16
+http/this.is.invalid:0/happy3/?action=view
+scheme is: http/
+scheme should be invalid
+authority is: this.is.invalid
+authority should be invalid
+port is: :0
+port should be valid
+path is: /happy3/
+path should be valid
+query is: ?action=view
+query should be valid
+true
+
+test case #17
+3ht://asdf.comb1234/$777&queryisfalse
+scheme is: 3ht://
+scheme should be invalid
+authority is: asdf.com
+authority should be valid
+port is: b1234
+port should be invalid
+path is: /$777
+path should be valid
+query is: &queryisfalse
+query should be invalid
+true
+
+test case #18
+http/asdf.com:0/$777%wrongquery
+scheme is: http/
+scheme should be invalid
+authority is: asdf.com
+authority should be valid
+port is: :0
+port should be valid
+path is: /$777
+path should be valid
+query is: %wrongquery
+query should be invalid
+true
+
+test case #19
+h3t://.bbbbadport/..?action=view
+scheme is: h3t://
+scheme should be valid
+authority is: .bbb
+authority should be invalid
+port is: badport
+port should be invalid
+path is: /..
+path should be invalid
+query is: ?action=view
+query should be valid
+false
+
+test case #20
+3ht://happy.asdf.doesntwork/..
+scheme is: 3ht://
+scheme should be invalid
+authority is: happy.asdf.doesntwork
+authority should be invalid
+port is: 
+port should be valid
+path is: /..
+path should be invalid
+query is: 
+query should be valid
+true
+
+test case #21
+ftp://255.255.255.255b1234/hi//?action=view
+scheme is: ftp://
+scheme should be valid
+authority is: 255.255.255.255
+authority should be valid
+port is: b1234
+port should be invalid
+path is: /hi//
+path should be invalid
+query is: ?action=view
+query should be valid
+false
+
+test case #22
+3ht://this.is.invalidb1234/..&queryisfalse
+scheme is: 3ht://
+scheme should be invalid
+authority is: this.is.invalid
+authority should be invalid
+port is: b1234
+port should be invalid
+path is: /..
+path should be invalid
+query is: &queryisfalse
+query should be invalid
+true
+
+test case #23
+http://255.255.255.255@$%%dontwork?action=view
+scheme is: http://
+scheme should be valid
+authority is: 255.255.255.255
+authority should be valid
+port is: 
+port should be valid
+path is: @$%%dontwork
+path should be invalid
+query is: ?action=view
+query should be valid
+false
+
+test case #24
+ftp://happy.asdf.doesntworkbadport/hi//&queryisfalse
+scheme is: ftp://
+scheme should be valid
+authority is: happy.asdf.doesntwork
+authority should be invalid
+port is: badport
+port should be invalid
+path is: /hi//
+path should be invalid
+query is: &queryisfalse
+query should be invalid
+false
+
+test case #25
+http://255.255.255.255b1234/hi//?action=view
+scheme is: http://
+scheme should be valid
+authority is: 255.255.255.255
+authority should be valid
+port is: b1234
+port should be invalid
+path is: /hi//
+path should be invalid
+query is: ?action=view
+query should be valid
+false
+
+test case #26
+http://asdf.comb1234/..&queryisfalse
+scheme is: http://
+scheme should be valid
+authority is: asdf.com
+authority should be valid
+port is: b1234
+port should be invalid
+path is: /..
+path should be invalid
+query is: &queryisfalse
+query should be invalid
+false
+
+test case #27
+3ht://255.255.255.255b1234/hi//?action=view
+scheme is: 3ht://
+scheme should be invalid
+authority is: 255.255.255.255
+authority should be valid
+port is: b1234
+port should be invalid
+path is: /hi//
+path should be invalid
+query is: ?action=view
+query should be valid
+true
+
+test case #28
+h3t://asdf.combadport@$%%dontwork&queryisfalse
+scheme is: h3t://
+scheme should be valid
+authority is: asdf.com
+authority should be valid
+port is: badport
+port should be invalid
+path is: @$%%dontwork
+path should be invalid
+query is: &queryisfalse
+query should be invalid
+false
+
+test case #29
+ftp://.bbb/$777
+scheme is: ftp://
+scheme should be valid
+authority is: .bbb
+authority should be invalid
+port is: 
+port should be valid
+path is: /$777
+path should be valid
+query is: 
+query should be valid
+false
+
+test case #30
+ftp://com.asdf.www/$777%wrongquery
+scheme is: ftp://
+scheme should be valid
+authority is: com.asdf.www
+authority should be invalid
+port is: 
+port should be valid
+path is: /$777
+path should be valid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #31
+ftp://.bbbbadport/works5%wrongquery
+scheme is: ftp://
+scheme should be valid
+authority is: .bbb
+authority should be invalid
+port is: badport
+port should be invalid
+path is: /works5
+path should be valid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #32
+h3t://com.asdf.www/works5&queryisfalse
+scheme is: h3t://
+scheme should be valid
+authority is: com.asdf.www
+authority should be invalid
+port is: 
+port should be valid
+path is: /works5
+path should be valid
+query is: &queryisfalse
+query should be invalid
+false
+
+test case #33
+ftp://this.is.invalid/works5%wrongquery
+scheme is: ftp://
+scheme should be valid
+authority is: this.is.invalid
+authority should be invalid
+port is: 
+port should be valid
+path is: /works5
+path should be valid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #34
+ftp://this.is.invalid/hi//%wrongquery
+scheme is: ftp://
+scheme should be valid
+authority is: this.is.invalid
+authority should be invalid
+port is: 
+port should be valid
+path is: /hi//
+path should be invalid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #35
+3ht://.bbb/$777%wrongquery
+scheme is: 3ht://
+scheme should be invalid
+authority is: .bbb
+authority should be invalid
+port is: 
+port should be valid
+path is: /$777
+path should be valid
+query is: %wrongquery
+query should be invalid
+true
+
+test case #36
+http/happy.asdf.doesntwork@$%%dontwork
+scheme is: http/
+scheme should be invalid
+authority is: happy.asdf.doesntwork
+authority should be invalid
+port is: 
+port should be valid
+path is: @$%%dontwork
+path should be invalid
+query is: 
+query should be valid
+true
+
+test case #37
+h3t://happy.asdf.doesntwork:0@$%%dontwork?action=view
+scheme is: h3t://
+scheme should be valid
+authority is: happy.asdf.doesntwork
+authority should be invalid
+port is: :0
+port should be valid
+path is: @$%%dontwork
+path should be invalid
+query is: ?action=view
+query should be valid
+false
+
+test case #38
+3ht://invalid.url.httpb1234/hi//%wrongquery
+scheme is: 3ht://
+scheme should be invalid
+authority is: invalid.url.http
+authority should be invalid
+port is: b1234
+port should be invalid
+path is: /hi//
+path should be invalid
+query is: %wrongquery
+query should be invalid
+true
+
+test case #39
+http/happy.asdf.doesntworkb1234@$%%dontwork
+scheme is: http/
+scheme should be invalid
+authority is: happy.asdf.doesntwork
+authority should be invalid
+port is: b1234
+port should be invalid
+path is: @$%%dontwork
+path should be invalid
+query is: 
+query should be valid
+true
+
+test case #40
+ftp://this.is.invalidb1234@$%%dontwork%wrongquery
+scheme is: ftp://
+scheme should be valid
+authority is: this.is.invalid
+authority should be invalid
+port is: b1234
+port should be invalid
+path is: @$%%dontwork
+path should be invalid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #41
+3ht://255.255.255.255badport@$%%dontwork&queryisfalse
+scheme is: 3ht://
+scheme should be invalid
+authority is: 255.255.255.255
+authority should be valid
+port is: badport
+port should be invalid
+path is: @$%%dontwork
+path should be invalid
+query is: &queryisfalse
+query should be invalid
+true
+
+test case #42
+h3t://www.apple.combadport/..%wrongquery
+scheme is: h3t://
+scheme should be valid
+authority is: www.apple.com
+authority should be valid
+port is: badport
+port should be invalid
+path is: /..
+path should be invalid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #43
+h3t://.bbb@$%%dontwork?action=view
+scheme is: h3t://
+scheme should be valid
+authority is: .bbb
+authority should be invalid
+port is: 
+port should be valid
+path is: @$%%dontwork
+path should be invalid
+query is: ?action=view
+query should be valid
+false
+
+test case #44
+ftp://com.asdf.www/..
+scheme is: ftp://
+scheme should be valid
+authority is: com.asdf.www
+authority should be invalid
+port is: 
+port should be valid
+path is: /..
+path should be invalid
+query is: 
+query should be valid
+false
+
+test case #45
+ftp://this.is.invalidbadport/hi//&queryisfalse
+scheme is: ftp://
+scheme should be valid
+authority is: this.is.invalid
+authority should be invalid
+port is: badport
+port should be invalid
+path is: /hi//
+path should be invalid
+query is: &queryisfalse
+query should be invalid
+false
+
+test case #46
+http://happy.asdf.doesntworkb1234@$%%dontwork
+scheme is: http://
+scheme should be valid
+authority is: happy.asdf.doesntwork
+authority should be invalid
+port is: b1234
+port should be invalid
+path is: @$%%dontwork
+path should be invalid
+query is: 
+query should be valid
+false
+
+test case #47
+ftp://www.apple.combadport/$777?action=view
+scheme is: ftp://
+scheme should be valid
+authority is: www.apple.com
+authority should be valid
+port is: badport
+port should be invalid
+path is: /$777
+path should be valid
+query is: ?action=view
+query should be valid
+false
+
+test case #48
+http/this.is.invalidbadport/hi//
+scheme is: http/
+scheme should be invalid
+authority is: this.is.invalid
+authority should be invalid
+port is: badport
+port should be invalid
+path is: /hi//
+path should be invalid
+query is: 
+query should be valid
+true
+
+test case #49
+ftp://asdf.comb1234/happy3/?action=view
+scheme is: ftp://
+scheme should be valid
+authority is: asdf.com
+authority should be valid
+port is: b1234
+port should be invalid
+path is: /happy3/
+path should be valid
+query is: ?action=view
+query should be valid
+false
+
+test case #50
+http/asdf.comb1234@$%%dontwork
+scheme is: http/
+scheme should be invalid
+authority is: asdf.com
+authority should be valid
+port is: b1234
+port should be invalid
+path is: @$%%dontwork
+path should be invalid
+query is: 
+query should be valid
+true
+
+test case #51
+h3t://asdf.comb1234/..%wrongquery
+scheme is: h3t://
+scheme should be valid
+authority is: asdf.com
+authority should be valid
+port is: b1234
+port should be invalid
+path is: /..
+path should be invalid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #52
+3ht://happy.asdf.doesntwork:0/$777%wrongquery
+scheme is: 3ht://
+scheme should be invalid
+authority is: happy.asdf.doesntwork
+authority should be invalid
+port is: :0
+port should be valid
+path is: /$777
+path should be valid
+query is: %wrongquery
+query should be invalid
+true
+
+test case #53
+ftp://www.apple.com:0/happy3/
+scheme is: ftp://
+scheme should be valid
+authority is: www.apple.com
+authority should be valid
+port is: :0
+port should be valid
+path is: /happy3/
+path should be valid
+query is: 
+query should be valid
+true
+
+test case #54
+3ht://255.255.255.255b1234/..?action=view
+scheme is: 3ht://
+scheme should be invalid
+authority is: 255.255.255.255
+authority should be valid
+port is: b1234
+port should be invalid
+path is: /..
+path should be invalid
+query is: ?action=view
+query should be valid
+true
+
+test case #55
+h3t://.bbbbadport/happy3/%wrongquery
+scheme is: h3t://
+scheme should be valid
+authority is: .bbb
+authority should be invalid
+port is: badport
+port should be invalid
+path is: /happy3/
+path should be valid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #56
+ftp://happy.asdf.doesntwork/happy3/%wrongquery
+scheme is: ftp://
+scheme should be valid
+authority is: happy.asdf.doesntwork
+authority should be invalid
+port is: 
+port should be valid
+path is: /happy3/
+path should be valid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #57
+3ht://asdf.com@$%%dontwork&queryisfalse
+scheme is: 3ht://
+scheme should be invalid
+authority is: asdf.com
+authority should be valid
+port is: 
+port should be valid
+path is: @$%%dontwork
+path should be invalid
+query is: &queryisfalse
+query should be invalid
+true
+
+test case #58
+h3t://asdf.comb1234/$777&queryisfalse
+scheme is: h3t://
+scheme should be valid
+authority is: asdf.com
+authority should be valid
+port is: b1234
+port should be invalid
+path is: /$777
+path should be valid
+query is: &queryisfalse
+query should be invalid
+false
+
+test case #59
+h3t://this.is.invalidb1234/hi//%wrongquery
+scheme is: h3t://
+scheme should be valid
+authority is: this.is.invalid
+authority should be invalid
+port is: b1234
+port should be invalid
+path is: /hi//
+path should be invalid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #60
+h3t://com.asdf.www:0/hi//
+scheme is: h3t://
+scheme should be valid
+authority is: com.asdf.www
+authority should be invalid
+port is: :0
+port should be valid
+path is: /hi//
+path should be invalid
+query is: 
+query should be valid
+false
+
+test case #61
+http://happy.asdf.doesntworkb1234/happy3/?action=view
+scheme is: http://
+scheme should be valid
+authority is: happy.asdf.doesntwork
+authority should be invalid
+port is: b1234
+port should be invalid
+path is: /happy3/
+path should be valid
+query is: ?action=view
+query should be valid
+false
+
+test case #62
+http://invalid.url.httpb1234/..
+scheme is: http://
+scheme should be valid
+authority is: invalid.url.http
+authority should be invalid
+port is: b1234
+port should be invalid
+path is: /..
+path should be invalid
+query is: 
+query should be valid
+false
+
+test case #63
+ftp://255.255.255.255badport/works5%wrongquery
+scheme is: ftp://
+scheme should be valid
+authority is: 255.255.255.255
+authority should be valid
+port is: badport
+port should be invalid
+path is: /works5
+path should be valid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #64
+http/this.is.invalid@$%%dontwork
+scheme is: http/
+scheme should be invalid
+authority is: this.is.invalid
+authority should be invalid
+port is: 
+port should be valid
+path is: @$%%dontwork
+path should be invalid
+query is: 
+query should be valid
+true
+
+test case #65
+http/www.apple.combadport/$777%wrongquery
+scheme is: http/
+scheme should be invalid
+authority is: www.apple.com
+authority should be valid
+port is: badport
+port should be invalid
+path is: /$777
+path should be valid
+query is: %wrongquery
+query should be invalid
+true
+
+test case #66
+3ht://invalid.url.http/$777?action=view
+scheme is: 3ht://
+scheme should be invalid
+authority is: invalid.url.http
+authority should be invalid
+port is: 
+port should be valid
+path is: /$777
+path should be valid
+query is: ?action=view
+query should be valid
+true
+
+test case #67
+http://255.255.255.255:0/hi//
+scheme is: http://
+scheme should be valid
+authority is: 255.255.255.255
+authority should be valid
+port is: :0
+port should be valid
+path is: /hi//
+path should be invalid
+query is: 
+query should be valid
+false
+
+test case #68
+h3t://www.apple.com:0@$%%dontwork&queryisfalse
+scheme is: h3t://
+scheme should be valid
+authority is: www.apple.com
+authority should be valid
+port is: :0
+port should be valid
+path is: @$%%dontwork
+path should be invalid
+query is: &queryisfalse
+query should be invalid
+false
+
+test case #69
+h3t://255.255.255.255/$777?action=view
+scheme is: h3t://
+scheme should be valid
+authority is: 255.255.255.255
+authority should be valid
+port is: 
+port should be valid
+path is: /$777
+path should be valid
+query is: ?action=view
+query should be valid
+true
+
+test case #70
+3ht://invalid.url.http:0/hi//?action=view
+scheme is: 3ht://
+scheme should be invalid
+authority is: invalid.url.http
+authority should be invalid
+port is: :0
+port should be valid
+path is: /hi//
+path should be invalid
+query is: ?action=view
+query should be valid
+true
+
+test case #71
+http/invalid.url.http:0/works5%wrongquery
+scheme is: http/
+scheme should be invalid
+authority is: invalid.url.http
+authority should be invalid
+port is: :0
+port should be valid
+path is: /works5
+path should be valid
+query is: %wrongquery
+query should be invalid
+true
+
+test case #72
+http://invalid.url.httpb1234@$%%dontwork?action=view
+scheme is: http://
+scheme should be valid
+authority is: invalid.url.http
+authority should be invalid
+port is: b1234
+port should be invalid
+path is: @$%%dontwork
+path should be invalid
+query is: ?action=view
+query should be valid
+false
+
+test case #73
+3ht://invalid.url.httpbadport/happy3/&queryisfalse
+scheme is: 3ht://
+scheme should be invalid
+authority is: invalid.url.http
+authority should be invalid
+port is: badport
+port should be invalid
+path is: /happy3/
+path should be valid
+query is: &queryisfalse
+query should be invalid
+true
+
+test case #74
+http/www.apple.comb1234/..?action=view
+scheme is: http/
+scheme should be invalid
+authority is: www.apple.com
+authority should be valid
+port is: b1234
+port should be invalid
+path is: /..
+path should be invalid
+query is: ?action=view
+query should be valid
+true
+
+test case #75
+http/com.asdf.www/happy3/&queryisfalse
+scheme is: http/
+scheme should be invalid
+authority is: com.asdf.www
+authority should be invalid
+port is: 
+port should be valid
+path is: /happy3/
+path should be valid
+query is: &queryisfalse
+query should be invalid
+true
+
+test case #76
+3ht://.bbb:0/$777&queryisfalse
+scheme is: 3ht://
+scheme should be invalid
+authority is: .bbb
+authority should be invalid
+port is: :0
+port should be valid
+path is: /$777
+path should be valid
+query is: &queryisfalse
+query should be invalid
+true
+
+test case #77
+h3t://invalid.url.http/happy3/?action=view
+scheme is: h3t://
+scheme should be valid
+authority is: invalid.url.http
+authority should be invalid
+port is: 
+port should be valid
+path is: /happy3/
+path should be valid
+query is: ?action=view
+query should be valid
+false
+
+test case #78
+3ht://invalid.url.httpb1234@$%%dontwork&queryisfalse
+scheme is: 3ht://
+scheme should be invalid
+authority is: invalid.url.http
+authority should be invalid
+port is: b1234
+port should be invalid
+path is: @$%%dontwork
+path should be invalid
+query is: &queryisfalse
+query should be invalid
+true
+
+test case #79
+h3t://com.asdf.www/happy3/%wrongquery
+scheme is: h3t://
+scheme should be valid
+authority is: com.asdf.www
+authority should be invalid
+port is: 
+port should be valid
+path is: /happy3/
+path should be valid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #80
+ftp://255.255.255.255/works5?action=view
+scheme is: ftp://
+scheme should be valid
+authority is: 255.255.255.255
+authority should be valid
+port is: 
+port should be valid
+path is: /works5
+path should be valid
+query is: ?action=view
+query should be valid
+true
+
+test case #81
+3ht://www.apple.com/$777?action=view
+scheme is: 3ht://
+scheme should be invalid
+authority is: www.apple.com
+authority should be valid
+port is: 
+port should be valid
+path is: /$777
+path should be valid
+query is: ?action=view
+query should be valid
+true
+
+test case #82
+3ht://happy.asdf.doesntworkbadport/..%wrongquery
+scheme is: 3ht://
+scheme should be invalid
+authority is: happy.asdf.doesntwork
+authority should be invalid
+port is: badport
+port should be invalid
+path is: /..
+path should be invalid
+query is: %wrongquery
+query should be invalid
+true
+
+test case #83
+http/happy.asdf.doesntwork:0/works5?action=view
+scheme is: http/
+scheme should be invalid
+authority is: happy.asdf.doesntwork
+authority should be invalid
+port is: :0
+port should be valid
+path is: /works5
+path should be valid
+query is: ?action=view
+query should be valid
+true
+
+test case #84
+h3t://.bbb:0/hi//
+scheme is: h3t://
+scheme should be valid
+authority is: .bbb
+authority should be invalid
+port is: :0
+port should be valid
+path is: /hi//
+path should be invalid
+query is: 
+query should be valid
+false
+
+test case #85
+3ht://com.asdf.www/works5?action=view
+scheme is: 3ht://
+scheme should be invalid
+authority is: com.asdf.www
+authority should be invalid
+port is: 
+port should be valid
+path is: /works5
+path should be valid
+query is: ?action=view
+query should be valid
+true
+
+test case #86
+3ht://asdf.combadport/$777
+scheme is: 3ht://
+scheme should be invalid
+authority is: asdf.com
+authority should be valid
+port is: badport
+port should be invalid
+path is: /$777
+path should be valid
+query is: 
+query should be valid
+true
+
+test case #87
+ftp://invalid.url.httpbadport/works5%wrongquery
+scheme is: ftp://
+scheme should be valid
+authority is: invalid.url.http
+authority should be invalid
+port is: badport
+port should be invalid
+path is: /works5
+path should be valid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #88
+http/invalid.url.httpb1234/$777&queryisfalse
+scheme is: http/
+scheme should be invalid
+authority is: invalid.url.http
+authority should be invalid
+port is: b1234
+port should be invalid
+path is: /$777
+path should be valid
+query is: &queryisfalse
+query should be invalid
+true
+
+test case #89
+http://com.asdf.www:0/$777&queryisfalse
+scheme is: http://
+scheme should be valid
+authority is: com.asdf.www
+authority should be invalid
+port is: :0
+port should be valid
+path is: /$777
+path should be valid
+query is: &queryisfalse
+query should be invalid
+false
+
+test case #90
+http/invalid.url.http:0/happy3/&queryisfalse
+scheme is: http/
+scheme should be invalid
+authority is: invalid.url.http
+authority should be invalid
+port is: :0
+port should be valid
+path is: /happy3/
+path should be valid
+query is: &queryisfalse
+query should be invalid
+true
+
+test case #91
+h3t://com.asdf.wwwbadport/..%wrongquery
+scheme is: h3t://
+scheme should be valid
+authority is: com.asdf.www
+authority should be invalid
+port is: badport
+port should be invalid
+path is: /..
+path should be invalid
+query is: %wrongquery
+query should be invalid
+false
+
+test case #92
+ftp://asdf.comb1234/$777
+scheme is: ftp://
+scheme should be valid
+authority is: asdf.com
+authority should be valid
+port is: b1234
+port should be invalid
+path is: /$777
+path should be valid
+query is: 
+query should be valid
+false
+
+test case #93
+http/invalid.url.httpbadport/happy3/%wrongquery
+scheme is: http/
+scheme should be invalid
+authority is: invalid.url.http
+authority should be invalid
+port is: badport
+port should be invalid
+path is: /happy3/
+path should be valid
+query is: %wrongquery
+query should be invalid
+true
+
+test case #94
+ftp://happy.asdf.doesntwork:0/works5&queryisfalse
+scheme is: ftp://
+scheme should be valid
+authority is: happy.asdf.doesntwork
+authority should be invalid
+port is: :0
+port should be valid
+path is: /works5
+path should be valid
+query is: &queryisfalse
+query should be invalid
+false
+
+test case #95
+ftp://this.is.invalidb1234@$%%dontwork&queryisfalse
+scheme is: ftp://
+scheme should be valid
+authority is: this.is.invalid
+authority should be invalid
+port is: b1234
+port should be invalid
+path is: @$%%dontwork
+path should be invalid
+query is: &queryisfalse
+query should be invalid
+false
+
+test case #96
+3ht://.bbbbadport/happy3/
+scheme is: 3ht://
+scheme should be invalid
+authority is: .bbb
+authority should be invalid
+port is: badport
+port should be invalid
+path is: /happy3/
+path should be valid
+query is: 
+query should be valid
+true
+
+test case #97
+3ht://com.asdf.wwwbadport/..&queryisfalse
+scheme is: 3ht://
+scheme should be invalid
+authority is: com.asdf.www
+authority should be invalid
+port is: badport
+port should be invalid
+path is: /..
+path should be invalid
+query is: &queryisfalse
+query should be invalid
+true
+
+test case #98
+h3t://com.asdf.www:0/..
+scheme is: h3t://
+scheme should be valid
+authority is: com.asdf.www
+authority should be invalid
+port is: :0
+port should be valid
+path is: /..
+path should be invalid
+query is: 
+query should be valid
+false
+
+test case #99
+h3t://invalid.url.http:0/$777
+scheme is: h3t://
+scheme should be valid
+authority is: invalid.url.http
+authority should be invalid
+port is: :0
+port should be valid
+path is: /$777
+path should be valid
+query is: 
+query should be valid
+false
+
+test case #100
+ftp://asdf.com/hi//&queryisfalse
+scheme is: ftp://
+scheme should be valid
+authority is: asdf.com
+authority should be valid
+port is: 
+port should be valid
+path is: /hi//
+path should be invalid
+query is: &queryisfalse
+query should be invalid
+false
+Programming based testing via URLS from CSV file
+
+Testing http://aamagazine.blogspot.com/
+
+Testing http://afteegypt.org/
+
+Testing http://al-jana.org/
+
+Testing http://alaintaxi.blogspot.com/
+
+Testing http://albechir.net/
+
+Testing http://albrhan.org/
+
+Testing http://alemarat.wordpress.com/
+
+Testing http://alislaah.net/site/
+
+Testing http://alkhaleejonline.net/
+
+Testing http://almayadeen.net/
+
+Testing http://alsaha.com/
+
+Testing http://anaahor.blogspot.com/
+
+Testing http://anbia.tripod.com/
+
+Testing http://angryarab.blogspot.com/
+
+Testing http://answer-islam.com/
+
+Testing http://answering-islam.org/
+
+Testing http://arabanticorruption.org/
+
+Testing http://arabatheistbroadcasting.com/
+
+Testing http://arabel7ad.blogspot.com/
+
+Testing http://arabgaypride.blogspot.com/
+
+Testing http://arabi21.com/
+
+Testing http://arabic.arabianbusiness.com/
+
+Testing http://arabic.peopledaily.com.cn/
+
+Testing https://arabic.rt.com/
+
+Testing http://arabic.sputniknews.com/
+
+Testing http://arabiclgbt.blogspot.com/
+
+Testing https://arabwomenwork.wordpress.com/
+
+Testing http://asrararabiya.com/
+
+Testing http://bahai-books.org/
+
+Testing http://bahai-devotions.org/
+
+Testing http://bahai-internet-services.org/
+
+Testing http://bahai-readings.org/
+
+Testing http://bahai-writings.org/
+
+Testing http://bbcarabic.com/
+
+Testing http://benkerishan.blogspot.com/
+
+Testing http://britishexpats.com/
+
+Testing http://carnegie-mec.org/
+
+Testing http://carnegieendowment.org/sada/49410
+
+Testing http://carnegieendowment.org/sada/?fa=49410&lang=ar
+
+Testing http://chouf-minorities.org/?lang=en
+
+Testing http://christchurchjebelali.com/
+
+Testing http://christian-dogma.com/
+
+Testing http://club4moslems.8m.com/
+
+Testing http://dangerdxb.blogspot.com/
+
+Testing http://denypagetests.netsweeper.com/
+
+Testing http://denypagetests.netsweeper.com/category/catno/1
+
+Testing http://denypagetests.netsweeper.com/category/catno/10
+
+Testing http://denypagetests.netsweeper.com/category/catno/11
+
+Testing http://denypagetests.netsweeper.com/category/catno/12
+
+Testing http://denypagetests.netsweeper.com/category/catno/13
+
+Testing http://denypagetests.netsweeper.com/category/catno/14
+
+Testing http://denypagetests.netsweeper.com/category/catno/15
+
+Testing http://denypagetests.netsweeper.com/category/catno/16
+
+Testing http://denypagetests.netsweeper.com/category/catno/160
+
+Testing http://denypagetests.netsweeper.com/category/catno/166
+
+Testing http://denypagetests.netsweeper.com/category/catno/17
+
+Testing http://denypagetests.netsweeper.com/category/catno/170
+
+Testing http://denypagetests.netsweeper.com/category/catno/18
+
+Testing http://denypagetests.netsweeper.com/category/catno/19
+
+Testing http://denypagetests.netsweeper.com/category/catno/2
+
+Testing http://denypagetests.netsweeper.com/category/catno/20
+
+Testing http://denypagetests.netsweeper.com/category/catno/21
+
+Testing http://denypagetests.netsweeper.com/category/catno/22
+
+Testing http://denypagetests.netsweeper.com/category/catno/23
+
+Testing http://denypagetests.netsweeper.com/category/catno/230
+
+Testing http://denypagetests.netsweeper.com/category/catno/24
+
+Testing http://denypagetests.netsweeper.com/category/catno/243
+
+Testing http://denypagetests.netsweeper.com/category/catno/244
+
+Testing http://denypagetests.netsweeper.com/category/catno/245
+
+Testing http://denypagetests.netsweeper.com/category/catno/246
+
+Testing http://denypagetests.netsweeper.com/category/catno/247
+
+Testing http://denypagetests.netsweeper.com/category/catno/248
+
+Testing http://denypagetests.netsweeper.com/category/catno/249
+
+Testing http://denypagetests.netsweeper.com/category/catno/25
+
+Testing http://denypagetests.netsweeper.com/category/catno/250
+
+Testing http://denypagetests.netsweeper.com/category/catno/252
+
+Testing http://denypagetests.netsweeper.com/category/catno/253
+
+Testing http://denypagetests.netsweeper.com/category/catno/254
+
+Testing http://denypagetests.netsweeper.com/category/catno/26
+
+Testing http://denypagetests.netsweeper.com/category/catno/27
+
+Testing http://denypagetests.netsweeper.com/category/catno/28
+
+Testing http://denypagetests.netsweeper.com/category/catno/29
+
+Testing http://denypagetests.netsweeper.com/category/catno/3
+
+Testing http://denypagetests.netsweeper.com/category/catno/30
+
+Testing http://denypagetests.netsweeper.com/category/catno/31
+
+Testing http://denypagetests.netsweeper.com/category/catno/32
+
+Testing http://denypagetests.netsweeper.com/category/catno/33
+
+Testing http://denypagetests.netsweeper.com/category/catno/34
+
+Testing http://denypagetests.netsweeper.com/category/catno/35
+
+Testing http://denypagetests.netsweeper.com/category/catno/36
+
+Testing http://denypagetests.netsweeper.com/category/catno/37
+
+Testing http://denypagetests.netsweeper.com/category/catno/39
+
+Testing http://denypagetests.netsweeper.com/category/catno/4
+
+Testing http://denypagetests.netsweeper.com/category/catno/40
+
+Testing http://denypagetests.netsweeper.com/category/catno/41
+
+Testing http://denypagetests.netsweeper.com/category/catno/42
+
+Testing http://denypagetests.netsweeper.com/category/catno/43
+
+Testing http://denypagetests.netsweeper.com/category/catno/44
+
+Testing http://denypagetests.netsweeper.com/category/catno/45
+
+Testing http://denypagetests.netsweeper.com/category/catno/47
+
+Testing http://denypagetests.netsweeper.com/category/catno/48
+
+Testing http://denypagetests.netsweeper.com/category/catno/49
+
+Testing http://denypagetests.netsweeper.com/category/catno/5
+
+Testing http://denypagetests.netsweeper.com/category/catno/50
+
+Testing http://denypagetests.netsweeper.com/category/catno/51
+
+Testing http://denypagetests.netsweeper.com/category/catno/53
+
+Testing http://denypagetests.netsweeper.com/category/catno/54
+
+Testing http://denypagetests.netsweeper.com/category/catno/6
+
+Testing http://denypagetests.netsweeper.com/category/catno/7
+
+Testing http://denypagetests.netsweeper.com/category/catno/8
+
+Testing http://denypagetests.netsweeper.com/category/catno/9
+
+Testing http://dubaiatrandom.blogspot.com/
+
+Testing http://dubaiconsumermirror.blogspot.com/
+
+Testing http://dubaiguy78.blogspot.com/
+
+Testing http://dubaiinmyface.blogspot.com/
+
+Testing http://dubaimedia.blogspot.com/
+
+Testing http://dubaithoughts.blogspot.com/
+
+Testing http://dxbsunshine.blogspot.com/
+
+Testing http://el7adarab.blogspot.com/
+
+Testing http://elmarsad.org/ar/
+
+Testing http://elyon1.court.gov.il/eng/siyur/index.html
+
+Testing http://emarati.katib.org/
+
+Testing http://emirateseconomist.blogspot.com/
+
+Testing http://emirati-affairs.com/
+
+Testing https://en.wiktionary.org/
+
+Testing https://fa.wikipedia.org/
+
+Testing http://freecopts.net/
+
+Testing http://gay-uae.blogspot.com/
+
+Testing http://gayguide.net/
+
+Testing http://gayswithoutborders.wordpress.com/
+
+Testing http://gulfnews.com/business/sectors/technology/skype-blocked-in-uae-here-are-the-alternatives-1.2149561
+
+Testing http://iknowpolitics.org/
+
+Testing http://il7adarabic.blogspot.com/
+
+Testing http://ilga.org/country/united-arab-emirates/
+
+Testing http://ilga.org/emirates-gay-rights-group-slam-nyu-for-promoting-campus-in-uae/
+
+Testing http://internet.tumblr.com/
+
+Testing http://islamion.com/
+
+Testing http://islammemo.cc/
+
+Testing http://karamah.org/
+
+Testing http://kvinfo.org/
+
+Testing http://ladeenioon.blogspot.com/
+
+Testing http://library.sheba.co.il/
+
+Testing http://localnewsuae.com/
+
+Testing http://lujrg.blogspot.com/
+
+Testing http://magazinegaymaroc.blogspot.com/
+
+Testing http://mecc.org/
+
+Testing http://middleeasttransparent.com/en/
+
+Testing http://minuf.co.il/
+
+Testing http://mirror.wikileaks.info/
+
+Testing http://mostaghreb.blogspot.com/
+
+Testing http://mubasher.aljazeera.net/
+
+Testing http://muhaisnah.blogspot.com/
+
+Testing http://muhammadorjesus.googlepages.com/home
+
+Testing http://neswangy.net/
+
+Testing http://no-ip.org/
+
+Testing http://omeldunya.com/
+
+Testing http://onebigconstructionsite.blogspot.com/
+
+Testing http://opl-now.org/
+
+Testing https://plus.google.com/communities/117457850617621671508
+
+Testing https://raseef22.com/
+
+Testing http://religion.tumblr.com/
+
+Testing http://rhr.org.il/eng/
+
+Testing https://richarddawkins.net/
+
+Testing http://saymar.org/
+
+Testing http://secretarabianjournal.blogspot.com/
+
+Testing http://secretdubai.blogspot.com/
+
+Testing http://secretvideo.blogspot.com/
+
+Testing http://sevenuae.blogspot.com/
+
+Testing http://shiaweb.org/
+
+Testing http://shuhood.org/
+
+Testing http://sports.tumblr.com/
+
+Testing http://support.skype.com/en/faq/FA391/is-skype-blocked-in-the-united-arab-emirates-uae
+
+Testing http://tabee3iil7ad.blogspot.com/
+
+Testing http://textsecure-service-ca.whispersystems.org/
+
+Testing https://textsecure-service-ca.whispersystems.org/
+
+Testing https://thawrah2day.com/
+
+Testing http://thedesertweasel.blogspot.com/
+
+Testing http://thenewkhalij.org/
+
+Testing http://thissitedoesnotexist.il/
+
+Testing http://thiswebsitedoesnotexistyet.tumblr.com/
+
+Testing http://twitter.com/#!/Ahmed_Mansoor
+
+Testing http://twitter.com/#!/gamaleid
+
+Testing http://twitter.com/#!/ghonim
+
+Testing https://twitter.com/Ahmed_Mansoor
+
+Testing http://twitter.com/Mashi97
+
+Testing https://twitter.com/UAE_Council
+
+Testing http://twitter.com/abualkhair
+
+Testing https://twitter.com/arabatheisttv
+
+Testing http://twitter.com/gamaleid
+
+Testing http://twitter.com/ghonim
+
+Testing https://twitter.com/hwghp
+
+Testing https://twitter.com/mol7d_arabi
+
+Testing https://twitter.com/uae_council?lang=ar
+
+Testing https://twitter.com/uae_detainees
+
+Testing http://uaecommunity.blogspot.com/
+
+Testing http://uaemot.blogspot.com/
+
+Testing https://whispersystems.org/
+
+Testing http://wikileaks.info/
+
+Testing http://www.888poker.com/
+
+Testing http://www.aaci.org.il/
+
+Testing http://www.adabislami.org/
+
+Testing http://www.agr.state.il.us/
+
+Testing http://www.ahewar.org/
+
+Testing http://www.ahmedandsalim.com/
+
+Testing http://www.ahrfund.org/csoon/index.html
+
+Testing http://www.al-akhbar.com/
+
+Testing http://www.al-bab.com/
+
+Testing http://www.al-ketab.net/
+
+Testing http://www.al-monitor.com/
+
+Testing http://www.alahednews.com.lb/
+
+Testing http://www.alalam.ir/
+
+Testing http://www.alarab.co.uk/
+
+Testing http://www.alarabiya.net/
+
+Testing https://www.alaraby.co.uk/
+
+Testing http://www.alaraby.co.uk/
+
+Testing http://www.albawaba.com/
+
+Testing http://www.albawaba.com/ar/countries/uae
+
+Testing http://www.alfarhan.org/
+
+Testing http://www.alhayat.com/
+
+Testing http://www.alhesbah.org/
+
+Testing https://www.alhurra.com/
+
+Testing http://www.alkarama.org/
+
+Testing http://www.almayadeen.net/
+
+Testing http://www.alnour.com.lb/
+
+Testing http://www.alnour.com/
+
+Testing http://www.alquds.co.uk/
+
+Testing http://www.alsaheefa.net/
+
+Testing http://www.alsakher.com/
+
+Testing http://www.althaqlain.com/
+
+Testing https://www.amazigh24.com/
+
+Testing https://www.amazighcity.com/
+
+Testing https://www.amazighlove.com/
+
+Testing http://www.amin.org/
+
+Testing http://www.amnesty.org/ar
+
+Testing https://www.amnesty.org/ar/latest/news/2014/11/uae-ruthless-crackdown-dissent-exposes-ugly-reality-beneath-fa-ade-glitz-and-glamour/
+
+Testing http://www.amplusnet.com/
+
+Testing http://www.anhri.net/
+
+Testing http://www.annabaa.org/
+
+Testing http://www.annd.org/arabic/index.php
+
+Testing http://www.ansarburney.org/
+
+Testing http://www.ansarh.com/
+
+Testing http://www.ansarweb.net/
+
+Testing http://www.ansarweb.net/artman2/publish/index.php
+
+Testing http://www.anti-cair-net.org/
+
+Testing http://www.antiquities.org.il/
+
+Testing http://www.antislavery.org/
+
+Testing http://www.arabatheist.humanists.net/
+
+Testing http://www.arabchurch.com/
+
+Testing http://www.arabfamilies.org/
+
+Testing http://www.arabhomosexual.com/SMF/index.php
+
+Testing http://www.arabhumanrights.org/
+
+Testing http://www.arabiadate.com/
+
+Testing http://www.arabic-club.de/
+
+Testing http://www.arabicbible.com/
+
+Testing http://www.arabicpoems.com/
+
+Testing http://www.arabruleoflaw.org/
+
+Testing http://www.arabstoday.net/
+
+Testing http://www.arabwomenorg.org/
+
+Testing http://www.asseer.com/
+
+Testing http://www.azzaman.com/
+
+Testing http://www.baath-party.org/
+
+Testing http://www.backtojerusalem.com/
+
+Testing http://www.bahai-faith.org/
+
+Testing http://www.bahai.com/
+
+Testing http://www.bakatheer.com/
+
+Testing http://www.basket.co.il/
+
+Testing http://www.bayynat.org/
+
+Testing http://www.bbc.co.uk/arabic/
+
+Testing http://www.behidden.com/
+
+Testing http://www.bet365.com/en/
+
+Testing https://www.biblegateway.com/
+
+Testing http://www.biblequery.org/
+
+Testing http://www.bintelnas.org/
+
+Testing http://www.blogjihad.com/
+
+Testing http://www.boi.org.il/
+
+Testing https://www.boutique-berbere.com/
+
+Testing http://www.business-humanrights.org/
+
+Testing https://www.bwin.com/
+
+Testing http://www.caironewss.com/
+
+Testing http://www.cawtar.org/
+
+Testing http://www.cbs.gov.il/
+
+Testing http://www.cdl.com.lb/
+
+Testing http://www.centerforinquiry.net/isis/
+
+Testing http://www.cewla.org/
+
+Testing https://www.change.org/p/etisalat-and-du-stop-blocking-voip-services
+
+Testing http://www.childsrights.org/
+
+Testing http://www.christianmuslimanswers.com/
+
+Testing http://www.cnnarabic.com/
+
+Testing http://www.coepaonline.org/
+
+Testing http://www.coptic-church.org.uk/
+
+Testing http://www.coptic.net/
+
+Testing http://www.coptic.net/EncyclopediaCoptica/
+
+Testing http://www.cpj.org/attacks00/mideast00/Gulf.html
+
+Testing http://www.crin.org/
+
+Testing http://www.danielpipes.org/
+
+Testing http://www.debate.org.uk/
+
+Testing http://www.defendingwomen-defendingrights.org/
+
+Testing http://www.detainedindubai.org/homosexuality-in-the-uae
+
+Testing http://www.detarabiskeinitiativ.dk/ar/
+
+Testing http://www.drahmadnofal.com/
+
+Testing http://www.dubai-escort-list.com/
+
+Testing http://www.dubaiinformer.com/
+
+Testing http://www.duke.org/
+
+Testing http://www.dw.com/ar
+
+Testing http://www.dwwen.com/
+
+Testing http://www.ehcconline.org/
+
+Testing http://www.elaph.com/
+
+Testing http://www.elbadil.info/
+
+Testing http://www.emasc-uae.com/
+
+Testing http://www.emirates71.org/
+
+Testing http://www.endvaw.org/
+
+Testing http://www.equalitynow.org/
+
+Testing http://www.equalpowerlastingpeace.org/ar/
+
+Testing http://www.eremnews.com/
+
+Testing http://www.euro4arab.com/
+
+Testing http://www.euromedrights.net/
+
+Testing http://www.evemodels.com/
+
+Testing http://www.evemodels.com/agadir-escorts.html
+
+Testing http://www.extratorrent.com/
+
+Testing https://www.facebook.com/ArabAtheistBroadcasting/
+
+Testing https://www.facebook.com/Dr.AhmadNofal/
+
+Testing https://www.facebook.com/DrBakkar1/
+
+Testing https://www.facebook.com/Egypt.President.Morsi/
+
+Testing https://www.facebook.com/Emiratesdetainees/
+
+Testing https://www.facebook.com/EmiratiAffairs/
+
+Testing https://www.facebook.com/GayStarNews/
+
+Testing https://www.facebook.com/IkhwanWorld/
+
+Testing https://www.facebook.com/Il7ad/
+
+Testing https://www.facebook.com/Moh.alrashed/
+
+Testing https://www.facebook.com/TheEnlightenedMinds/
+
+Testing https://www.facebook.com/aleslaah/
+
+Testing https://www.facebook.com/alqaradawy/
+
+Testing https://www.facebook.com/bostan.ikhwan/
+
+Testing https://www.facebook.com/newbedon/
+
+Testing https://www.facebook.com/rwanyouns/
+
+Testing https://www.facebook.com/watan-497997655485/
+
+Testing http://www.faithfreedom.org/
+
+Testing http://www.flcckuwait.com/
+
+Testing http://www.flickr.com/photos/miskan/4581554/
+
+Testing http://www.france24.com/
+
+Testing http://www.freearabvoice.org/
+
+Testing http://www.freemuslim.org/
+
+Testing http://www.friendfinder.com/
+
+Testing http://www.fulltiltpoker.com/
+
+Testing http://www.galilcol.ac.il/
+
+Testing http://www.gayalgerie.net/
+
+Testing http://www.gayarab.org/
+
+Testing http://www.gaymaroc.net/
+
+Testing http://www.gaystarnews.com/
+
+Testing http://www.gaytravelnet.com/
+
+Testing http://www.ghaliboun.net/
+
+Testing http://www.glas.org/
+
+Testing http://www.glas.org/ahbab/
+
+Testing http://www.glas.org/lazeeza.html
+
+Testing http://www.globalfundforwomen.org/
+
+Testing http://www.globalgayz.com/
+
+Testing http://www.godhatesfags.com/
+
+Testing https://www.google.co.il/
+
+Testing https://www.google.com/earth/
+
+Testing http://www.greenbo.co.il/
+
+Testing http://www.gvnet.com/
+
+Testing http://www.gvnet.com/childprostitution/UnitedArabEmirates.htm
+
+Testing http://www.haaretz.co.il/
+
+Testing http://www.hadash.org.il/
+
+Testing http://www.haifawehbe.com/
+
+Testing http://www.hajr.org/
+
+Testing http://www.hajr.org/forum/index.php
+
+Testing http://www.haya.org/
+
+Testing http://www.heart2heart.com/
+
+Testing http://www.heretical.com/
+
+Testing http://www.historyofnations.net/
+
+Testing http://www.hizbollah.org/
+
+Testing http://www.hri.ca/
+
+Testing http://www.hritc.net/
+
+Testing http://www.hrw.org/ar
+
+Testing https://www.hrw.org/middle-east/n-africa/united-arab-emirates
+
+Testing http://www.huffpostarabi.com/
+
+Testing http://www.humum.net/
+
+Testing http://www.humum.net/country/main.php?id=uae
+
+Testing http://www.ibwgdubai.com/
+
+Testing http://www.icw-cif.org/
+
+Testing http://www.idf.il/
+
+Testing http://www.ikhwan.net/
+
+Testing http://www.ikhwan.net/forum/
+
+Testing http://www.ikhwanonline.com/
+
+Testing http://www.ikhwantube.com/
+
+Testing http://www.ikhwanweb.com/
+
+Testing http://www.il7ad.com/
+
+Testing https://www.il7ad.org/vb/index.php
+
+Testing http://www.independentdubaiescorts.com/
+
+Testing http://www.internewsmena.org/
+
+Testing http://www.iraqiwomensleague.com/
+
+Testing http://www.irshadmanji.com/
+
+Testing http://www.irshadmanji.com/arabic-edition
+
+Testing http://www.isa.gov.il/
+
+Testing http://www.islammemo.cc/
+
+Testing http://www.islamonline.net/
+
+Testing http://www.islamreview.com/
+
+Testing http://www.islamtoday.net/
+
+Testing http://www.islamway.com/
+
+Testing http://www.israel.com/
+
+Testing http://www.ivillage.com/
+
+Testing http://www.j-c-w.org/
+
+Testing http://www.jadal.org/
+
+Testing http://www.jasadmag.com/
+
+Testing http://www.jesusfilm.org/
+
+Testing http://www.jihadwatch.org/
+
+Testing http://www.justadultsites.com/
+
+Testing http://www.kayan.org.il/ar/
+
+Testing http://www.khayma.com/
+
+Testing http://www.kickasstorrents.com/
+
+Testing http://www.kitabat.com/
+
+Testing http://www.knesset.gov.il/
+
+Testing http://www.kurdtimes.com/
+
+Testing http://www.ladeeni.net/
+
+Testing http://www.lahamag.com/Global
+
+Testing http://www.lahaonline.com/
+
+Testing http://www.lavaplace.com/
+
+Testing http://www.learningpartnership.org/ar
+
+Testing http://www.lebraly.com/
+
+Testing http://www.light-of-life.com/
+
+Testing http://www.light-of-life.com/index.htm
+
+Testing http://www.likud.org.il/
+
+Testing http://www.luxuryjoy.com/
+
+Testing http://www.macmag-glip.org/
+
+Testing http://www.mahdi-alumma.com/
+
+Testing http://www.mahjoob.com/
+
+Testing http://www.martinlutherking.org/
+
+Testing http://www.marxy.com/
+
+Testing http://www.mc-doualiya.com/
+
+Testing http://www.memoryatwork.org/
+
+Testing http://www.mepanorama.net/
+
+Testing http://www.meretz.org.il/
+
+Testing http://www.metrodate.com/
+
+Testing https://www.metrodate.com/
+
+Testing http://www.metrodate.com/cairo/
+
+Testing http://www.mfa.gov.il/
+
+Testing http://www.middle-east-online.com/
+
+Testing http://www.middle-east-online.com/uae/
+
+Testing http://www.middleeasteye.net/
+
+Testing http://www.middleeasteye.net/news/uae-government-blocks-access-middle-east-eye-1161235723
+
+Testing http://www.middleeasttransparent.com/
+
+Testing http://www.mod.gov.il/
+
+Testing http://www.modawanati.com/
+
+Testing http://www.moqawama.org/
+
+Testing http://www.mossad.gov.il/default.aspx
+
+Testing http://www.mousematrix.com/
+
+Testing https://www.mousematrix.com/
+
+Testing http://www.muhammed-elnahyan.com/
+
+Testing http://www.nancyajram.com/
+
+Testing http://www.nancyajramonline.com/
+
+Testing http://www.naseej.com/
+
+Testing http://www.nbn.org.il/
+
+Testing http://www.nccuae.org/
+
+Testing http://www.ncwegypt.com/index.php/ar/
+
+Testing http://www.netanyahu.org.il/
+
+Testing http://www.nikahsearch.com/
+
+Testing http://www.noonpost.net/
+
+Testing http://www.noontidepress.com/
+
+Testing http://www.onlytorrents.com/
+
+Testing http://www.oswego.lib.il.us/
+
+Testing https://www.palinfo.com/
+
+Testing http://www.pureprivacy.com/
+
+Testing http://www.qaradawi.net/new/Home/page
+
+Testing http://www.qudspress.com/
+
+Testing http://www.radiosawa.com/
+
+Testing http://www.rafael.co.il/
+
+Testing http://www.rafed.net/
+
+Testing http://www.ramla.muni.il/
+
+Testing http://www.rasid.com/
+
+Testing http://www.rasid.net/
+
+Testing http://www.rassd.com/
+
+Testing http://www.raya.com/
+
+Testing https://www.reuters.com/article/us-emirates-lgbt/in-first-transgender-emiratis-seek-recognition-as-men-idUSKBN1801EG
+
+Testing http://www.rezgar.com/
+
+Testing http://www.rightsobserver.org/
+
+Testing http://www.rim.org/
+
+Testing http://www.rubymania.com/
+
+Testing http://www.sadafat.com/
+
+Testing http://www.saintmarysdubai.org/
+
+Testing http://www.sasapost.com/
+
+Testing http://www.sat7.org/
+
+Testing http://www.science.co.il/
+
+Testing http://www.scunthorpegilbertandsullivan.org/
+
+Testing http://www.secularislam.org/
+
+Testing http://www.shaharah.net/
+
+Testing http://www.shiaweb.org/
+
+Testing http://www.shiaweb.org/v2/index.html
+
+Testing http://www.sistersunited.org/
+
+Testing http://www.skynewsarabia.com/web/home
+
+Testing http://www.sqlserver.co.il/
+
+Testing http://www.state.gov/g/drl/rls/hrrpt/2006/78865.htm
+
+Testing http://www.stfrancisjebelali.ae/home.php
+
+Testing http://www.sumotorrent.com/
+
+Testing https://www.tacticaltech.org/
+
+Testing http://www.taqadoumiya.net/
+
+Testing http://www.taqrir.org/
+
+Testing http://www.tarjem.com/
+
+Testing http://www.tawhed.ws/
+
+Testing http://www.the-good-way.com/
+
+Testing http://www.theahafoundation.org/
+
+Testing http://www.thebirdman.org/
+
+Testing http://www.thegrace.com/
+
+Testing http://www.theguardian.com/tone/blog
+
+Testing http://www.thekoran.com/
+
+Testing http://www.thenewkhalij.net/
+
+Testing http://www.thepiratebay.org/
+
+Testing http://www.thequran.com/
+
+Testing http://www.thereligionofpeace.com/
+
+Testing https://www.thesun.co.uk/living/2282983/gay-expat-reveals-what-its-like-to-live-in-dubai-where-homosexuality-is-punishable-by-10-years-in-prison/
+
+Testing http://www.thissiteisntreal.xxx/
+
+Testing http://www.timesofisrael.com/
+
+Testing http://www.torrentcrazy.com/
+
+Testing http://www.torrentdownloads.net/
+
+Testing http://www.torrentreactor.net/
+
+Testing http://www.torrentz.com/
+
+Testing http://www.toystore.co.il/
+
+Testing http://www.uae71.com/
+
+Testing http://www.uaedetainees.com/
+
+Testing http://www.uaeec.com/
+
+Testing http://www.uaeforum.net/
+
+Testing http://www.uaehewar.net/Forums/
+
+Testing http://www.uaeprison.com/
+
+Testing http://www.uaetorture.com/
+
+Testing https://www.un.org/ecosoc/fr/
+
+Testing http://www.us-israel.org/
+
+Testing http://www.watan.com/
+
+Testing http://www.watanserb.com/
+
+Testing http://www.wavo.org/
+
+Testing http://www.wclac.org/
+
+Testing http://www.weld-uae.com/
+
+Testing http://www.williamhill.com/
+
+Testing http://www.wluml.org/ar
+
+Testing http://www.worldsexarchives.com/
+
+Testing http://www.worldsexguide.com/
+
+Testing http://www.wtb.org.il/arabic/
+
+Testing http://www.xrdarabia.org/
+
+Testing http://www.yahosein.com/
+
+Testing http://www.yemenipress.com/
+
+Testing https://www.youtube.com/user/freedomforgays
+
+Testing http://www.youtube.com/verify_controversy?next_url=/watch%3fv%3dqmodvun16q4
+
+Testing http://www.youtube.com/watch?v=BgQdZgojOFI
+
+Testing http://www.youtube.com/watch?v=PdmfSUoQyds&feature=related
+
+Testing http://www.youtube.com/watch?v=Pk0p48sOG2k&feature=related
+
+Testing http://www.youtube.com/watch?v=jMxV1-jeCJ0
+
+Testing http://www.youtube.com/watch?v=rSmLBoJC_l4
+
+Testing http://www.youtube.com/watch?v=z1HRwkxh3M8&feature=related
+
+Testing http://www.zawagislamy.com/
+
+Testing http://www.zawajfriends.com/
+
+Testing http://www.zawajfriends.com/fm/
+
+Query Unit Test:
+
+
+Testing ?action=read
+PASSED
+
+
+Testing ?name=ferret
+FAILED, invalid Query
+
+
+Testing ?color=purple
+PASSED
+
+
+Testing 
+FAILED, invalid Query
+
+
+Testing ???Fakeaction
+PASSED
+
+
+1st partition: Testing only valid URLs
+www.google.com:10/yay?cat=meow
+www.google.com:10/yay?cat=meow&claws=out
+www.google.com:10/yay
+www.google.com:10/yay1?cat=meow
+www.google.com:10/yay1?cat=meow&claws=out
+www.google.com:10/yay1
+www.google.com:10/1yay?cat=meow
+www.google.com:10/1yay?cat=meow&claws=out
+www.google.com:10/1yay
+www.google.com:10/$17?cat=meow
+www.google.com:10/$17?cat=meow&claws=out
+www.google.com:10/$17
+www.google.com:10/yay/?cat=meow
+www.google.com:10/yay/?cat=meow&claws=out
+www.google.com:10/yay/
+www.google.com:10/yay/yatta?cat=meow
+www.google.com:10/yay/yatta?cat=meow&claws=out
+www.google.com:10/yay/yatta
+www.google.com:65535/yay?cat=meow
+www.google.com:65535/yay?cat=meow&claws=out
+www.google.com:65535/yay
+www.google.com:65535/yay1?cat=meow
+www.google.com:65535/yay1?cat=meow&claws=out
+www.google.com:65535/yay1
+www.google.com:65535/1yay?cat=meow
+www.google.com:65535/1yay?cat=meow&claws=out
+www.google.com:65535/1yay
+www.google.com:65535/$17?cat=meow
+www.google.com:65535/$17?cat=meow&claws=out
+www.google.com:65535/$17
+www.google.com:65535/yay/?cat=meow
+www.google.com:65535/yay/?cat=meow&claws=out
+www.google.com:65535/yay/
+www.google.com:65535/yay/yatta?cat=meow
+www.google.com:65535/yay/yatta?cat=meow&claws=out
+www.google.com:65535/yay/yatta
+www.google.com:0/yay?cat=meow
+www.google.com:0/yay?cat=meow&claws=out
+www.google.com:0/yay
+www.google.com:0/yay1?cat=meow
+www.google.com:0/yay1?cat=meow&claws=out
+www.google.com:0/yay1
+www.google.com:0/1yay?cat=meow
+www.google.com:0/1yay?cat=meow&claws=out
+www.google.com:0/1yay
+www.google.com:0/$17?cat=meow
+www.google.com:0/$17?cat=meow&claws=out
+www.google.com:0/$17
+www.google.com:0/yay/?cat=meow
+www.google.com:0/yay/?cat=meow&claws=out
+www.google.com:0/yay/
+www.google.com:0/yay/yatta?cat=meow
+www.google.com:0/yay/yatta?cat=meow&claws=out
+www.google.com:0/yay/yatta
+go.com:10/yay?cat=meow
+go.com:10/yay?cat=meow&claws=out
+go.com:10/yay
+go.com:10/yay1?cat=meow
+go.com:10/yay1?cat=meow&claws=out
+go.com:10/yay1
+go.com:10/1yay?cat=meow
+go.com:10/1yay?cat=meow&claws=out
+go.com:10/1yay
+go.com:10/$17?cat=meow
+go.com:10/$17?cat=meow&claws=out
+go.com:10/$17
+go.com:10/yay/?cat=meow
+go.com:10/yay/?cat=meow&claws=out
+go.com:10/yay/
+go.com:10/yay/yatta?cat=meow
+go.com:10/yay/yatta?cat=meow&claws=out
+go.com:10/yay/yatta
+go.com:65535/yay?cat=meow
+go.com:65535/yay?cat=meow&claws=out
+go.com:65535/yay
+go.com:65535/yay1?cat=meow
+go.com:65535/yay1?cat=meow&claws=out
+go.com:65535/yay1
+go.com:65535/1yay?cat=meow
+go.com:65535/1yay?cat=meow&claws=out
+go.com:65535/1yay
+go.com:65535/$17?cat=meow
+go.com:65535/$17?cat=meow&claws=out
+go.com:65535/$17
+go.com:65535/yay/?cat=meow
+go.com:65535/yay/?cat=meow&claws=out
+go.com:65535/yay/
+go.com:65535/yay/yatta?cat=meow
+go.com:65535/yay/yatta?cat=meow&claws=out
+go.com:65535/yay/yatta
+go.com:0/yay?cat=meow
+go.com:0/yay?cat=meow&claws=out
+go.com:0/yay
+go.com:0/yay1?cat=meow
+go.com:0/yay1?cat=meow&claws=out
+go.com:0/yay1
+go.com:0/1yay?cat=meow
+go.com:0/1yay?cat=meow&claws=out
+go.com:0/1yay
+go.com:0/$17?cat=meow
+go.com:0/$17?cat=meow&claws=out
+go.com:0/$17
+go.com:0/yay/?cat=meow
+go.com:0/yay/?cat=meow&claws=out
+go.com:0/yay/
+go.com:0/yay/yatta?cat=meow
+go.com:0/yay/yatta?cat=meow&claws=out
+go.com:0/yay/yatta
+go.au:10/yay?cat=meow
+go.au:10/yay?cat=meow&claws=out
+go.au:10/yay
+go.au:10/yay1?cat=meow
+go.au:10/yay1?cat=meow&claws=out
+go.au:10/yay1
+go.au:10/1yay?cat=meow
+go.au:10/1yay?cat=meow&claws=out
+go.au:10/1yay
+go.au:10/$17?cat=meow
+go.au:10/$17?cat=meow&claws=out
+go.au:10/$17
+go.au:10/yay/?cat=meow
+go.au:10/yay/?cat=meow&claws=out
+go.au:10/yay/
+go.au:10/yay/yatta?cat=meow
+go.au:10/yay/yatta?cat=meow&claws=out
+go.au:10/yay/yatta
+go.au:65535/yay?cat=meow
+go.au:65535/yay?cat=meow&claws=out
+go.au:65535/yay
+go.au:65535/yay1?cat=meow
+go.au:65535/yay1?cat=meow&claws=out
+go.au:65535/yay1
+go.au:65535/1yay?cat=meow
+go.au:65535/1yay?cat=meow&claws=out
+go.au:65535/1yay
+go.au:65535/$17?cat=meow
+go.au:65535/$17?cat=meow&claws=out
+go.au:65535/$17
+go.au:65535/yay/?cat=meow
+go.au:65535/yay/?cat=meow&claws=out
+go.au:65535/yay/
+go.au:65535/yay/yatta?cat=meow
+go.au:65535/yay/yatta?cat=meow&claws=out
+go.au:65535/yay/yatta
+go.au:0/yay?cat=meow
+go.au:0/yay?cat=meow&claws=out
+go.au:0/yay
+go.au:0/yay1?cat=meow
+go.au:0/yay1?cat=meow&claws=out
+go.au:0/yay1
+go.au:0/1yay?cat=meow
+go.au:0/1yay?cat=meow&claws=out
+go.au:0/1yay
+go.au:0/$17?cat=meow
+go.au:0/$17?cat=meow&claws=out
+go.au:0/$17
+go.au:0/yay/?cat=meow
+go.au:0/yay/?cat=meow&claws=out
+go.au:0/yay/
+go.au:0/yay/yatta?cat=meow
+go.au:0/yay/yatta?cat=meow&claws=out
+go.au:0/yay/yatta
+
+Schemes Unit Test
+
+TEST: http://
+FAILED, invalid scheme
+
+
+TEST: ftp://
+FAILED, invalid scheme
+
+
+TEST: mailto:
+PASSED
+
+
+TEST: fake://
+PASSED
+
+
+TEST:  
+FAILED, invalid scheme
+
